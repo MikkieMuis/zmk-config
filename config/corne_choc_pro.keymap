@@ -74,7 +74,7 @@
             bindings = <
 &kp TAB     &kp Q           &kp W           &kp E        &kp R             &kp T       &kp C_MUTE    &kp PRINTSCREEN  &kp Y            &kp U              &kp I        &kp O        &kp P        &kp BSPC
 &kp DOLLAR  &mt LEFT_ALT A  &mt LEFT_GUI S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G       &kp CAPSLOCK  &caps_word       &mt RIGHT_ALT H  &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RMETA L  &kp SEMI     &kp DELETE
-&kp STAR    &lt 4 Z         &lt 1 X         &lt 2 C      &lt 3 V           &kp B                                      &kp N            &lt 3 J            &lt 2 COMMA  &lt 1 DOT    &lt 4 SLASH  &kp UNDER
+&kp STAR    &lt 4 Z         &lt 1 X         &lt 2 C      &lt 3 V           &kp B                                      &kp N            &lt 3 M            &lt 2 COMMA  &lt 1 DOT    &lt 4 SLASH  &kp UNDER
                                             &kp INS      &kp SPACE         &kp ESCAPE                                 &kp RET          &kp SPACE          &kp INS
             >;
 
