@@ -91,10 +91,10 @@
             //                    | GUI |     | SPC   |        | ENT   |     | ALT |
 
             bindings = <
-&trans  &rgb_ug RGB_EFF  &trans           &trans        &trans        &trans          &kp PAGE_UP    &trans  &kp PERCENT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0    &kp BSPC
-&trans  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp PAGE_DOWN  &trans  &kp SLASH    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS  &kp STAR
-&trans  &bt BT_CLR       &rgb_ug RGB_TOG  &sys_reset    &bootloader   &studio_unlock                         &kp EQUAL    &kp N7        &kp N8        &kp N9        &kp DOT   &kp MINUS
-                                          &trans        &trans        &trans                                 &trans       &trans        &trans
+&rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans          &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &kp PERCENT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0    &kp BSPC
+&rgb_ug RGB_SPD  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &kp SLASH    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS  &kp STAR
+&trans           &bt BT_CLR       &rgb_ug RGB_TOG  &sys_reset       &bootloader      &studio_unlock                                    &kp EQUAL    &kp N7        &kp N8        &kp N9        &kp DOT   &kp MINUS
+                                                   &trans           &trans           &trans                                            &trans       &trans        &trans
             >;
         };
 
@@ -128,7 +128,7 @@
         MOUSE {
             display-name = "EXTRA 2";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &mmv MOVE_UP    &trans           &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &kp PAGE_UP     &mmv MOVE_UP    &kp PAGE_DOWN    &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN   &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &msc SCRL_LEFT  &mkp LCLK       &mkp MCLK       &mkp RCLK        &msc SCRL_RIGHT  &trans
                         &trans  &trans  &trans                  &trans          &trans          &trans
