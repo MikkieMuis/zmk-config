@@ -128,10 +128,10 @@
         MOUSE {
             display-name = "EXTRA 2";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &mmv MOVE_UP    &trans           &msc MOVE_X(10)  &msc MOVE_Y(10)
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP     &msc SCRL_DOWN
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &msc SCRL_LEFT   &msc SCRL_RIGHT
-                        &trans  &trans  &trans                  &trans  &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &mmv MOVE_UP    &trans           &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &msc SCRL_LEFT  &mkp LCLK       &mkp MCLK       &mkp RCLK        &msc SCRL_RIGHT  &trans
+                        &trans  &trans  &trans                  &trans          &trans          &trans
             >;
         };
 
