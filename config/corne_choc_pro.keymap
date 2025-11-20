@@ -91,10 +91,10 @@
             //                    | GUI |     | SPC   |        | ENT   |     | ALT |
 
             bindings = <
-&rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans          &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &kp PERCENT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0    &kp BSPC
-&rgb_ug RGB_SPD  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &kp SLASH    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS  &kp STAR
-&trans           &bt BT_CLR       &rgb_ug RGB_TOG  &sys_reset       &bootloader      &studio_unlock                                    &kp EQUAL    &kp N7        &kp N8        &kp N9        &kp DOT   &kp MINUS
-                                                   &trans           &trans           &trans                                            &trans       &trans        &trans
+&rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans          &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &kp BSPC
+&rgb_ug RGB_SPD  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
+&trans           &bt BT_CLR       &rgb_ug RGB_TOG  &sys_reset       &bootloader      &studio_unlock                                    &trans  &kp N7        &kp N8        &kp N9        &trans  &trans
+                                                   &trans           &trans           &trans                                            &trans  &trans        &trans
             >;
         };
 
@@ -118,10 +118,10 @@
         FUNCTION {
             display-name = "Div + Num";
             bindings = <
-&kp LS(LG(P))  &kp LG(F1)          &kp LG(F2)        &kp LG(F3)    &kp LG(F4)           &kp LG(F5)  &kp K_VOLUME_UP    &kp C_BRI_UP   &kp LG(F6)      &kp LG(F7)      &kp LG(F8)    &kp LG(F9)       &kp LG(F10)  &kp LS(LG(Q))
-&trans         &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(DOWN)  &kp LG(RIGHT_ARROW)  &trans      &kp K_VOLUME_DOWN  &kp C_BRI_DEC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans       &trans
-&trans         &kp F1              &kp F2            &kp F3        &kp F4               &kp F5                                        &kp F6          &kp F7          &kp F8        &kp F9           &kp F10      &trans
-                                                     &trans        &trans               &trans                                        &trans          &trans          &trans
+&kp LS(LG(P))  &kp LG(F1)          &kp LG(F2)  &kp LG(F3)  &kp LG(F4)           &kp LG(F5)  &kp K_VOLUME_UP    &kp C_BRI_UP   &kp LG(F6)      &kp LG(F7)      &kp LG(F8)    &kp LG(F9)       &kp LG(F10)  &kp LS(LG(Q))
+&trans         &kp LG(LEFT_ARROW)  &trans      &trans      &kp LG(RIGHT_ARROW)  &trans      &kp K_VOLUME_DOWN  &kp C_BRI_DEC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans       &trans
+&trans         &kp F1              &kp F2      &kp F3      &kp F4               &kp F5                                        &kp F6          &kp F7          &kp F8        &kp F9           &kp F10      &trans
+                                               &trans      &trans               &trans                                        &trans          &trans          &trans
             >;
         };
 
