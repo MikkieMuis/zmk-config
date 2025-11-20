@@ -129,10 +129,10 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL     &kp AT        &kp HASH  &euro      &kp PRCNT          &kp SCROLLLOCK  &kp HOME  &kp CARET  &kp AMPS   &kp ASTRK      &kp LPAR          &kp RPAR           &trans
-&trans  &equalequal  &dash_left    &and      &kp TILDE  &kp SINGLE_QUOTE   &kp C_PAUSE     &kp END   &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans  &notequal    &equals_left  &or       &kp GRAVE  &kp DOUBLE_QUOTES                            &kp UNDER  &kp PLUS   &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
-                                   &trans    &trans     &trans                                       &trans     &trans     &trans
+&trans  &kp EXCL     &kp AT        &kp HASH  &euro      &kp PRCNT          &kp SCROLLLOCK  &kp HOME  &kp CARET   &kp AMPS   &Pound         &kp LPAR          &kp RPAR           &trans
+&trans  &equalequal  &dash_left    &and      &kp TILDE  &kp SINGLE_QUOTE   &kp C_PAUSE     &kp END   &kp MINUS   &kp EQUAL  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans  &notequal    &equals_left  &or       &kp GRAVE  &kp DOUBLE_QUOTES                            &Plusminus  &kp PLUS   &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
+                                   &trans    &trans     &trans                                       &trans      &trans     &trans
             >;
         };
 
