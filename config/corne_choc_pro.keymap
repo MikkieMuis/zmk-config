@@ -57,6 +57,13 @@
             bindings = <&none &kp EXCL &kp EQUAL>;
             label = "NOTEQUAL";
         };
+
+        euro: euro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "EURO";
+        };
     };
 
     keymap {
