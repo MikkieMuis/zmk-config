@@ -118,10 +118,10 @@
         FUNCTION {
             display-name = "Div + Num";
             bindings = <
-&trans  &kp LG(F1)      &kp LG(F2)    &kp LG(F3)  &kp LG(F4)       &kp LG(F5)  &kp K_VOLUME_UP    &kp C_BRI_UP   &kp LG(F6)      &kp LG(F7)      &kp LG(F8)    &kp LG(F9)       &kp LG(F10)  &trans
-&trans  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN    &kp RIGHT_ARROW  &trans      &kp K_VOLUME_DOWN  &kp C_BRI_DEC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans       &trans
-&trans  &kp F1          &kp F2        &kp F3      &kp F4           &kp F5                                        &kp F6          &kp F7          &kp F8        &kp F9           &kp F10      &trans
-                                      &trans      &trans           &trans                                        &trans          &trans          &trans
+&kp LS(LG(P))  &kp LG(F1)          &kp LG(F2)        &kp LG(F3)    &kp LG(F4)           &kp LG(F5)  &kp K_VOLUME_UP    &kp C_BRI_UP   &kp LG(F6)      &kp LG(F7)      &kp LG(F8)    &kp LG(F9)       &kp LG(F10)  &kp LS(LG(Q))
+&trans         &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(DOWN)  &kp LG(RIGHT_ARROW)  &trans      &kp K_VOLUME_DOWN  &kp C_BRI_DEC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans       &trans
+&trans         &kp F1              &kp F2            &kp F3        &kp F4               &kp F5                                        &kp F6          &kp F7          &kp F8        &kp F9           &kp F10      &trans
+                                                     &trans        &trans               &trans                                        &trans          &trans          &trans
             >;
         };
 
