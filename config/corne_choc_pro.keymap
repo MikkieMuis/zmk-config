@@ -81,7 +81,7 @@
         clear_terminal: clear_terminal {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LC(U) &kp C &kp L &kp E &kp A &kp R>;
+            bindings = <&none &kp LC(U) &kp C &kp L &kp E &kp A &kp R &kp RET>;
             label = "CLEAR_TERMINAL";
         };
     };
