@@ -84,6 +84,13 @@
             bindings = <&none &kp LC(U) &kp C &kp L &kp E &kp A &kp R &kp RET>;
             label = "CLEAR_TERMINAL";
         };
+
+        reset_terminal: reset_terminal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp RET &kp TILDE &kp DOT>;
+            label = "RESET_TERMINAL";
+        };
     };
 
     keymap {
@@ -135,10 +142,10 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL     &kp AT        &kp HASH  &euro      &kp PRCNT          &kp SCROLLLOCK  &kp HOME  &kp CARET   &kp AMPS   &Pound         &kp LPAR          &kp RPAR           &trans
-&trans  &equalequal  &dash_left    &and      &kp TILDE  &kp SINGLE_QUOTE   &kp C_PAUSE     &kp END   &kp MINUS   &kp EQUAL  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans  &notequal    &equals_left  &or       &kp GRAVE  &kp DOUBLE_QUOTES                            &Plusminus  &kp PLUS   &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
-                                   &trans    &trans     &trans                                       &trans      &trans     &trans
+&trans  &kp EXCL     &kp AT        &kp HASH  &euro      &kp PRCNT          &kp SCROLLLOCK   &kp HOME  &kp CARET   &kp AMPS   &Pound         &kp LPAR          &kp RPAR           &trans
+&trans  &equalequal  &dash_left    &and      &kp TILDE  &kp SINGLE_QUOTE   &reset_terminal  &kp END   &kp MINUS   &kp EQUAL  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans  &notequal    &equals_left  &or       &kp GRAVE  &kp DOUBLE_QUOTES                             &Plusminus  &kp PLUS   &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
+                                   &trans    &trans     &trans                                        &trans      &trans     &trans
             >;
         };
 
@@ -156,7 +163,7 @@
             display-name = "EXTRA 2";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LS(T))  &trans          &kp PAGE_UP     &mmv MOVE_UP    &kp PAGE_DOWN    &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_PAUSE    &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN   &trans
 &trans  &trans  &trans  &trans  &trans  &trans                         &msc SCRL_LEFT  &mkp LCLK       &mkp MCLK       &mkp RCLK        &msc SCRL_RIGHT  &trans
                         &trans  &trans  &trans                         &trans          &trans          &trans
             >;
