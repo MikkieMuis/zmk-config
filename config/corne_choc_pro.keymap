@@ -89,7 +89,7 @@
         reset_terminal: reset_terminal {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp RET &kp TILDE &kp DOT>;
+            bindings = <&none &kp RET &kp TILDE &kp TILDE &kp DOT>;
             label = "RESET_TERMINAL";
         };
     };
