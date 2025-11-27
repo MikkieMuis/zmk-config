@@ -136,10 +136,10 @@
             //                    | GUI |     | SPC   |        | ENT   |     | ALT |
 
             bindings = <
-&trans          &trans           &trans           &trans           &trans           &trans           &rgb_ug RGB_ON   &kp RS(RG(MINUS))  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &kp BSPC
+&trans          &trans           &trans           &trans           &trans           &trans           &rgb_ug RGB_ON   &kp RS(RG(MINUS))  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp BSPC
 &trans          &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_OFF  &kp LG(MINUS)      &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
 &studio_unlock  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR                                      &trans  &kp N7        &kp N8        &kp N9        &trans  &trans
-                                                  &trans           &trans           &trans                                               &trans  &trans        &trans
+                                                  &trans           &trans           &rgb_ug RGB_TOG                                      &kp N0  &trans        &trans
             >;
         };
 
