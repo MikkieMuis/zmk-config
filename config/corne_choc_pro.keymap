@@ -106,10 +106,10 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB     &kp Q           &kp W           &kp E        &kp R             &kp T       &kp C_MUTE       &kp PRINTSCREEN  &kp Y    &kp U              &kp I        &kp O        &kp P               &kp BSPC
-&kp DOLLAR  &mt LEFT_ALT A  &mt LEFT_GUI S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G       &clear_terminal  &caps_word       &kp H    &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RMETA L  &mt RIGHT_ALT SEMI  &kp DELETE
-&kp STAR    &lt 4 Z         &lt 3 X         &lt 2 C      &lt 1 V           &kp B                                         &kp N    &lt 1 M            &lt 2 COMMA  &lt 3 DOT    &lt 4 SLASH         &kp UNDER
-                                            &kp INS      &kp SPACE         &kp ESCAPE                                    &kp RET  &kp SPACE          &kp INS
+&kp TAB     &kp Q           &kp W           &kp E        &kp R             &kp T       &kp C_MUTE  &kp PRINTSCREEN  &kp Y    &kp U              &kp I        &kp O        &kp P               &kp BSPC
+&kp DOLLAR  &mt LEFT_ALT A  &mt LEFT_GUI S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G       &trans      &caps_word       &kp H    &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RMETA L  &mt RIGHT_ALT SEMI  &kp DELETE
+&kp STAR    &lt 4 Z         &lt 3 X         &lt 2 C      &lt 1 V           &kp B                                    &kp N    &lt 1 M            &lt 2 COMMA  &lt 3 DOT    &lt 4 SLASH         &kp UNDER
+                                            &kp INS      &kp SPACE         &kp ESCAPE                               &kp RET  &kp SPACE          &kp INS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_BRI_DN C_BRI_UP>;
@@ -142,7 +142,7 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL     &kp AT        &kp HASH  &euro      &kp PRCNT          &kp SCROLLLOCK   &kp HOME  &kp CARET   &kp AMPS   &Pound         &kp LPAR          &kp RPAR           &trans
+&trans  &kp EXCL     &kp AT        &kp HASH  &euro      &kp PRCNT          &clear_terminal  &kp HOME  &kp CARET   &kp AMPS   &Pound         &kp LPAR          &kp RPAR           &trans
 &trans  &equalequal  &dash_left    &and      &kp TILDE  &kp SINGLE_QUOTE   &reset_terminal  &kp END   &kp MINUS   &kp EQUAL  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
 &trans  &notequal    &equals_left  &or       &kp GRAVE  &kp DOUBLE_QUOTES                             &Plusminus  &kp PLUS   &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
                                    &trans    &trans     &trans                                        &trans      &trans     &trans
