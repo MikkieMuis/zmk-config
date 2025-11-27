@@ -93,6 +93,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        BT_Layer {
+            bindings = <&none>;
+            key-positions = <6 7>;
+            layers = <5>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -160,7 +170,7 @@
         };
 
         MOUSE {
-            display-name = "EXTRA 2";
+            display-name = "Mouse";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LS(T))  &trans          &kp PAGE_UP     &mmv MOVE_UP    &kp PAGE_DOWN    &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_PAUSE    &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN   &trans
@@ -169,8 +179,8 @@
             >;
         };
 
-        extra_layer_3 {
-            display-name = "EXTRA 3";
+        BT_Layer {
+            display-name = "BT_Layer";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
