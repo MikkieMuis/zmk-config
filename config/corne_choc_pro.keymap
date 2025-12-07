@@ -192,8 +192,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LS(T))  &trans          &kp PAGE_UP     &mmv MOVE_UP    &kp PAGE_DOWN    &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_PAUSE    &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                         &msc SCRL_LEFT  &mkp LCLK       &mkp MCLK       &mkp RCLK        &msc SCRL_RIGHT  &trans
-                        &trans  &trans  &trans                         &trans          &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans                         &msc SCRL_LEFT  &trans          &trans          &trans           &msc SCRL_RIGHT  &trans
+                        &trans  &trans  &trans                         &mkp LCLK       &mkp MCLK       &mkp RCLK
             >;
         };
 
