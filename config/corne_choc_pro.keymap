@@ -102,6 +102,20 @@
             bindings = <&none &kp LC(J) &kp LC(E)>;
             label = "ACCEPT_COPILOT";
         };
+
+        tmux_down: tmux_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(B) &kp J>;
+            label = "TMUX_DOWN";
+        };
+
+        tmux_up: tmux_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(B) &kp K>;
+            label = "TMUX_UP";
+        };
     };
 
     combos {
@@ -194,13 +208,13 @@
             >;
         };
 
-        MOUSE {
-            display-name = "Mouse";
+        TMUX_MOUSE {
+            display-name = "TMUX_MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LS(T))  &trans          &kp PAGE_DOWN   &kp PG_UP     &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_PAUSE    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
-&none   &trans  &trans  &trans  &trans  &trans                         &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
-                        &trans  &trans  &trans                         &mkp LCLK       &mkp MCLK       &mkp RCLK
+&trans  &trans  &trans  &trans    &trans      &trans  &trans  &kp LG(LS(T))  &trans          &kp PAGE_DOWN   &kp PG_UP     &trans           &trans  &trans
+&trans  &trans  &trans  &tmux_up  &tmux_down  &trans  &trans  &kp C_PAUSE    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
+&none   &trans  &trans  &trans    &trans      &trans                         &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
+                        &trans    &trans      &trans                         &mkp LCLK       &mkp MCLK       &mkp RCLK
             >;
         };
 
