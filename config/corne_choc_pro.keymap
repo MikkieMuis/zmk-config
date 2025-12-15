@@ -120,7 +120,7 @@
         tmux_left: tmux_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LC(BACKSPACE) &kp LEFT_ARROW>;
+            bindings = <&none &kp LC(B) &kp LEFT_ARROW>;
             label = "TMUX_LEFT";
         };
 
