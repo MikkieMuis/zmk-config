@@ -116,6 +116,20 @@
             bindings = <&none &kp LC(B) &kp K>;
             label = "TMUX_UP";
         };
+
+        tmux_left: tmux_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(BACKSPACE) &kp H>;
+            label = "TMUX_LEFT";
+        };
+
+        tmux_right: tmux_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(B) &kp L>;
+            label = "TMUX_RIGHT";
+        };
     };
 
     combos {
@@ -201,10 +215,10 @@
         FUNCTION {
             display-name = "Div + Num";
             bindings = <
-&kp LS(LG(P))  &kp LG(F1)          &kp LG(F2)           &kp LG(F3)  &kp LG(F4)           &kp LG(F5)       &kp K_VOLUME_UP    &kp C_BRI_UP   &kp LG(F6)      &kp LG(F7)      &kp LG(F8)    &kp LG(F9)       &kp LG(F10)  &kp LS(LG(Q))
-&kp RG(RS(C))  &kp LG(LEFT_ARROW)  &kp LG(PRINTSCREEN)  &trans      &kp LG(RIGHT_ARROW)  &kp RS(RG(TAB))  &kp K_VOLUME_DOWN  &kp C_BRI_DEC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans       &kp LS(LG(F))
-&kp RS(RG(E))  &kp F1              &kp F2               &kp F3      &kp F4               &kp F5                                             &kp F6          &kp F7          &kp F8        &kp F9           &kp F10      &kp LS(LG(U))
-                                                        &trans      &trans               &trans                                             &trans          &trans          &trans
+&kp LS(LG(P))  &kp LG(F1)  &kp LG(F2)          &kp LG(F3)   &kp LG(F4)           &kp LG(F5)           &kp K_VOLUME_UP    &kp C_BRI_UP   &kp LG(F6)      &kp LG(F7)      &kp LG(F8)    &kp LG(F9)       &kp LG(F10)  &kp LS(LG(Q))
+&kp RG(RS(C))  &trans      &kp LG(LEFT_ARROW)  &kp LG(TAB)  &kp LG(PRINTSCREEN)  &kp RG(RIGHT_ARROW)  &kp K_VOLUME_DOWN  &kp C_BRI_DEC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans       &kp LS(LG(F))
+&kp RS(RG(E))  &kp F1      &kp F2              &kp F3       &kp F4               &kp F5                                                 &kp F6          &kp F7          &kp F8        &kp F9           &kp F10      &kp LS(LG(U))
+                                               &trans       &trans               &trans                                                 &trans          &trans          &trans
             >;
         };
 
