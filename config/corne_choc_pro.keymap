@@ -130,6 +130,34 @@
             bindings = <&none &kp LC(B) &kp L>;
             label = "TMUX_RIGHT";
         };
+
+        tmux_vsplit: tmux_vsplit {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(B) &kp DQT>;
+            label = "TMUX_VSPLIT";
+        };
+
+        tmux_split: tmux_split {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(B) &kp PRCNT>;
+            label = "TMUX_SPLIT";
+        };
+
+        tmux_zoom: tmux_zoom {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(B) &kp Z>;
+            label = "TMUX_ZOOM";
+        };
+
+        tmux_close: tmux_close {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(B) &kp C>;
+            label = "TMUX_CLOSE";
+        };
     };
 
     combos {
@@ -225,10 +253,10 @@
         TMUX_MOUSE {
             display-name = "TMUX_MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans    &trans      &trans  &trans  &kp LG(LS(T))  &trans          &kp PAGE_DOWN   &kp PG_UP     &trans           &trans  &trans
-&trans  &trans  &trans  &tmux_up  &tmux_down  &trans  &trans  &kp C_PAUSE    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
-&none   &trans  &trans  &trans    &trans      &trans                         &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
-                        &trans    &trans      &trans                         &mkp LCLK       &mkp MCLK       &mkp RCLK
+&trans  &trans      &trans      &trans       &trans        &tmux_split  &trans  &kp LG(LS(T))  &trans          &kp PAGE_DOWN   &kp PG_UP     &trans           &trans  &trans
+&trans  &trans      &tmux_left  &tmux_up     &tmux_down    &tmux_right  &trans  &kp C_PAUSE    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
+&none   &tmux_zoom  &trans      &tmux_close  &tmux_vsplit  &trans                              &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
+                                &trans       &trans        &trans                              &mkp LCLK       &mkp MCLK       &mkp RCLK
             >;
         };
 
