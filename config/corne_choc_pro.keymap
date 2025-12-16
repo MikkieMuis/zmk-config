@@ -155,7 +155,7 @@
         tmux_close: tmux_close {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LC(B) &kp AMPERSAND>;
+            bindings = <&none &kp LC(B) &kp AMPS>;
             label = "TMUX_CLOSE";
         };
 
