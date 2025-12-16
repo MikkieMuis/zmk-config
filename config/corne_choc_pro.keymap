@@ -267,9 +267,9 @@
         TMUX_MOUSE {
             display-name = "TMUX_MOUSE";
             bindings = <
-&trans  &trans      &trans      &tmux_close  &trans        &tmux_split      &trans  &kp LG(LS(T))  &trans          &kp PAGE_DOWN   &kp PG_UP     &trans           &trans  &trans
+&trans  &trans      &trans      &trans       &trans        &tmux_split      &trans  &kp LG(LS(T))  &trans          &kp PAGE_DOWN   &kp PG_UP     &trans           &trans  &trans
 &trans  &trans      &tmux_left  &tmux_up     &tmux_down    &tmux_right      &trans  &kp C_PAUSE    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &tmux_zoom  &trans      &trans       &tmux_vsplit  &trans                                  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
+&trans  &tmux_zoom  &trans      &tmux_close  &tmux_vsplit  &trans                                  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
                                 &trans       &tmux_pageup  &tmux_copy_mode                         &mkp LCLK       &mkp MCLK       &mkp RCLK
             >;
         };
