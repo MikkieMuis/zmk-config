@@ -208,39 +208,28 @@
             quick-tap-ms = <175>;
         };
 
-        l_hold-tap:
-
-        l_hold-tap {
+        home_row_mod_fix: home_row_mod_fix {
             compatible = "zmk,behavior-hold-tap";
-            label = "L_HOLD-TAP";
-            bindings = <&kp>, <&kp>;
+            label = "HOME_ROW_MOD_FIX";
+            bindings = <&none>, <&none>;
 
             #binding-cells = <2>;
             tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             flavor = "balanced";
-            quick-tap-ms = <175>;
         };
 
         l_hold-tap:
 
-        l_hold-tap { compatible = "zmk,behavior-hold-tap"; };
+
+        l_hold-tap:
+
 
         s_hold-tap:
 
         s_hold-tap:
 
-        s_hold-tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "S_HOLD-TAP";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <280>;
-            require-prior-idle-ms = <150>;
-            flavor = "balanced";
-            quick-tap-ms = <175>;
-        };
 
         s_hold-tap:
 
