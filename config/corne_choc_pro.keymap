@@ -208,9 +208,11 @@
             quick-tap-ms = <175>;
         };
 
-        k_holdtap: k_holdtap {
+        l_hold-tap:
+
+        l_hold-tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "K_HOLDTAP";
+            label = "L_HOLD-TAP";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -219,6 +221,12 @@
             flavor = "balanced";
             quick-tap-ms = <175>;
         };
+
+        l_hold-tap:
+
+        l_hold-tap { compatible = "zmk,behavior-hold-tap"; };
+
+        s_hold-tap:
 
         s_hold-tap:
 
