@@ -172,6 +172,27 @@
             bindings = <&none &kp LC(B) &kp PAGE_UP>;
             label = "TMUX_PAGEUP";
         };
+
+        tmux_create: tmux_create {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(B) &kp C>;
+            label = "TMUX_CREATE";
+        };
+
+        tmux_next: tmux_next {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(B) &kp N>;
+            label = "TMUX_NEXT";
+        };
+
+        tmux_prev: tmux_prev {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(B) &kp P>;
+            label = "TMUX_PREV";
+        };
     };
 
     combos {
