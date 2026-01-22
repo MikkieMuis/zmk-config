@@ -203,6 +203,16 @@
             key-positions = <6 7>;
             layers = <5>;
         };
+
+        leftr_arrow {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <29 28>;
+        };
+
+        right_arrow {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <39 38>;
+        };
     };
 
     behaviors {
