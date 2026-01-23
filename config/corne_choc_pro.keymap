@@ -204,14 +204,24 @@
             layers = <5>;
         };
 
-        leftr_arrow {
+        arrow_left {
             bindings = <&kp LEFT_ARROW>;
             key-positions = <29 28>;
         };
 
-        right_arrow {
+        arrow_right {
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <39 38>;
+        };
+
+        arrow_up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <27 13>;
+        };
+
+        arrow_down {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <27 39>;
         };
     };
 
