@@ -355,7 +355,7 @@
         TMUX_MOUSE {
             display-name = "TMUX_MOUSE";
             bindings = <
-&tmux_create  &none       &none       &none        &none         &tmux_split      &tmux_next  &kp LG(LS(T))  &none           &kp PAGE_DOWN   &kp PG_UP     &none            &none  &none
+&tmux_create  &none       &none       &none        &none         &tmux_split      &tmux_next  &kp LG(LS(T))  &kp LS(LG(H))   &kp PAGE_DOWN   &kp PG_UP     &none            &none  &none
 &none         &none       &tmux_left  &tmux_up     &tmux_down    &tmux_right      &tmux_prev  &kp C_PAUSE    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none  &none
 &none         &tmux_zoom  &none       &tmux_close  &tmux_vsplit  &none                                       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none  &none
                                       &none        &tmux_pageup  &tmux_copy_mode                             &mkp LCLK       &mkp MCLK       &mkp RCLK
