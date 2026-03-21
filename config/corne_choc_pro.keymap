@@ -225,6 +225,16 @@
             bindings = <&kp DOWN_ARROW>;
             key-positions = <27 39>;
         };
+
+        left_warpd {
+            bindings = <&kp RG(M)>;
+            key-positions = <41 40>;
+        };
+
+        right_warpd {
+            bindings = <&kp LG(M)>;
+            key-positions = <44 45>;
+        };
     };
 
     behaviors {
