@@ -227,12 +227,12 @@
         };
 
         left_warpd {
-            bindings = <&kp RG(M)>;
+            bindings = <&kp RG(F)>;
             key-positions = <41 40>;
         };
 
         right_warpd {
-            bindings = <&kp LG(M)>;
+            bindings = <&kp LG(H)>;
             key-positions = <44 45>;
         };
     };
