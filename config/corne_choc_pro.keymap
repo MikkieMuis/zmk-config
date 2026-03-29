@@ -319,19 +319,18 @@
         };
 
         DIV-NUM {
-            display-name = "DIV NUM";
+            display-name = "WARPD";
 
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5    |  LCTRL | RCTRL |  6  |  7  |  8  |  9  |  0  | BSPC |
-            // | CTRL | BT1 | BT2 | BT3 | BT4 | BT5   |  LALT  | RALT  | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT | BTCR| RGB | RST | BOOT| Unlock|        |       |     |     |     |     |     |      |
-            //                    | GUI |     | SPC   |        | ENT   |     | ALT |
+            // Warpd & Copy Functions Layer
+            // LEFT: Warpd navigation and copy/paste functions
+            // RIGHT: Numbers (unchanged)
 
             bindings = <
-&none           &none            &none            &none            &none            &none            &rgb_ug RGB_ON   &kp RS(RG(MINUS))  &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &kp BSPC
-&none           &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_OFF  &kp LG(MINUS)      &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &none
-&studio_unlock  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR                                      &none   &kp N7        &kp N8        &kp N9        &none  &none
-                                                  &none            &none            &rgb_ug RGB_TOG                                      &kp N0  &none         &none
+&none            &none            &kp LG(N)        &kp LG(H)        &kp LG(G)        &none            &none                &kp RS(RG(MINUS))  &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &kp BSPC
+&kp LG(LC(S))    &kp LG(LC(D))    &kp LG(LC(L))    &kp LG(LC(C))    &kp LG(C)        &none            &none                &kp LG(MINUS)      &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &none
+&none            &none            &kp LG(LS(W))    &kp LG(LS(Y))    &kp LG(LC(V))    &none                                                   &none   &kp N7        &kp N8        &kp N9        &none  &none
+                                                   &none            &none            &none                                                   &kp N0  &none         &none
             >;
         };
 
@@ -373,12 +372,12 @@
         };
 
         BT_Layer {
-            display-name = "BT_Layer";
+            display-name = "BT + RGB";
             bindings = <
-&sys_reset  &bt BT_CLR     &bt BT_CLR_ALL  &bootloader    &studio_unlock  &none          &none  &none  &none  &none  &none  &none  &none  &none
-&none       &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4   &none  &none  &none  &none  &none  &none  &none  &none
-&none       &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4                &none  &none  &none  &none  &none  &none
-                                           &none          &none           &none                        &none  &none  &none
+&sys_reset  &bt BT_CLR     &bt BT_CLR_ALL  &bootloader    &studio_unlock  &none          &rgb_ug RGB_ON   &none  &none            &none            &none            &none            &none            &none
+&none       &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4   &rgb_ug RGB_OFF  &none  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &none            &rgb_ug RGB_EFF
+&none       &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4                          &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &studio_unlock
+                                           &none          &none           &none                                  &none            &none            &rgb_ug RGB_TOG
             >;
         };
     };
