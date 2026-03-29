@@ -225,16 +225,6 @@
             bindings = <&kp DOWN_ARROW>;
             key-positions = <27 39>;
         };
-
-        left_warpd {
-            bindings = <&kp RG(F)>;
-            key-positions = <41 40>;
-        };
-
-        right_warpd {
-            bindings = <&kp LG(H)>;
-            key-positions = <44 45>;
-        };
     };
 
     behaviors {
@@ -309,10 +299,10 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB     &kp Q                  &kp W                   &kp E                    &kp R                     &kp T       &kp C_MUTE             &caps_word  &kp Y    &kp U                      &kp I                 &kp O                &kp P                      &kp BSPC
-&kp DOLLAR  &a_holdtap LEFT_ALT A  &sl_holdtab LEFT_GUI S  &dk_holdtap LCTRL D      &fj_holdtap LEFT_SHIFT F  &kp G       &kp LC(RIGHT_BRACKET)  &kp RC(E)   &kp H    &fj_holdtap RIGHT_SHIFT J  &dk_holdtap RCTRL K   &sl_holdtab RMETA L  &a_holdtap RIGHT_ALT SEMI  &kp DELETE
-&kp STAR    &lt 4 Z                &lt 3 X                 &lt 2 C                  &lt 1 V                   &kp B                                          &kp N    &lt 1 M                    &lt 2 COMMA           &lt 3 DOT            &lt 4 SLASH                &kp UNDER
-                                                           &hold_tap_macro 0 LC(L)  &kp SPACE                 &kp ESCAPE                                     &kp RET  &kp SPACE                  &mt LC(Y) DOWN_ARROW
+&kp TAB     &kp Q                  &kp W                   &kp E                &kp R                     &kp T       &kp C_MUTE             &caps_word  &kp Y    &kp U                      &kp I                &kp O                &kp P                      &kp BSPC
+&kp DOLLAR  &a_holdtap LEFT_ALT A  &sl_holdtab LEFT_GUI S  &dk_holdtap LCTRL D  &fj_holdtap LEFT_SHIFT F  &kp G       &kp LC(RIGHT_BRACKET)  &kp RC(E)   &kp H    &fj_holdtap RIGHT_SHIFT J  &dk_holdtap RCTRL K  &sl_holdtab RMETA L  &a_holdtap RIGHT_ALT SEMI  &kp DELETE
+&kp STAR    &lt 4 Z                &lt 3 X                 &lt 2 C              &lt 1 V                   &kp B                                          &kp N    &lt 1 M                    &lt 2 COMMA          &lt 3 DOT            &lt 4 SLASH                &kp UNDER
+                                                           &kp LC(L)            &kp SPACE                 &kp ESCAPE                                     &kp RET  &kp SPACE                  &kp LC(Y)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_BRI_DN C_BRI_UP>;
@@ -327,10 +317,10 @@
             // RIGHT: Numbers (unchanged)
 
             bindings = <
-&none            &none            &none            &kp LG(N)        &kp LG(H)        &kp LG(G)        &none                &kp RS(RG(MINUS))  &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &kp BSPC
-&none            &kp LG(LC(S))    &kp LG(LC(D))    &kp LG(LC(L))    &kp LG(LC(C))    &kp LG(C)        &none                &kp LG(MINUS)      &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &none
-&none            &none            &none            &kp LG(LS(W))    &kp LG(LS(Y))    &kp LG(LC(V))                                               &none   &kp N7        &kp N8        &kp N9        &none  &none
-                                                   &none            &none            &none                                                   &kp N0  &none         &none
+&none  &none          &none          &kp LG(N)      &kp LG(H)      &kp LG(G)      &none  &kp RS(RG(MINUS))  &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &kp BSPC
+&none  &kp LG(LC(S))  &kp LG(LC(D))  &kp LG(LC(L))  &kp LG(LC(C))  &kp LG(C)      &none  &kp LG(MINUS)      &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &none
+&none  &none          &none          &kp LG(LS(W))  &kp LG(LS(Y))  &kp LG(LC(V))                            &none   &kp N7        &kp N8        &kp N9        &none  &none
+                                     &none          &none          &none                                    &kp N0  &none         &none
             >;
         };
 
@@ -374,10 +364,10 @@
         BT_Layer {
             display-name = "BT + RGB";
             bindings = <
-&sys_reset  &bt BT_CLR     &bt BT_CLR_ALL  &bootloader    &studio_unlock  &none          &none            &rgb_ug RGB_ON   &none            &none            &none            &none            &none            &none
-&none       &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4   &none            &rgb_ug RGB_OFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &none
-&none       &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4                                    &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &studio_unlock
-                                           &none          &none           &none                                            &rgb_ug RGB_TOG  &none            &none
+&sys_reset  &bt BT_CLR     &bt BT_CLR_ALL  &bootloader    &studio_unlock  &none          &none  &rgb_ug RGB_ON   &none            &none            &none            &none            &none            &none
+&none       &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4   &none  &rgb_ug RGB_OFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &none
+&none       &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4                          &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &studio_unlock
+                                           &none          &none           &none                                  &rgb_ug RGB_TOG  &none            &none
             >;
         };
     };
