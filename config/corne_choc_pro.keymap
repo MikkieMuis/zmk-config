@@ -200,10 +200,9 @@
     combos {
         compatible = "zmk,combos";
 
-        BT_Layer {
-            bindings = <&none>;
+        BT_RGB_Layer_Toggle {
+            bindings = <&tog 5>;
             key-positions = <6 7>;
-            layers = <5>;
         };
 
         arrow_left {
