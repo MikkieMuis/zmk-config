@@ -333,10 +333,10 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-&kp F12  &kp EXCL     &kp AT        &kp HASH  &euro              &kp PRCNT  &clear_terminal  &none  &kp CARET   &kp AMPS   &Pound         &kp LPAR          &kp RPAR           &none
-&kp F11  &equalequal  &dash_left    &and      &kp SINGLE_QUOTE   &kp TILDE  &reset_terminal  &none  &kp PLUS    &kp MINUS  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
-&none    &notequal    &equals_left  &or       &kp DOUBLE_QUOTES  &kp GRAVE                          &Plusminus  &kp EQUAL  &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &none
-                                    &none     &none              &none                              &none       &none      &none
+&kp F12     &kp EXCL     &kp AT        &kp HASH  &euro              &kp PRCNT  &clear_terminal  &kp HOME  &kp CARET   &kp AMPS   &Pound         &kp LPAR          &kp RPAR           &none
+&kp F11     &equalequal  &dash_left    &and      &kp SINGLE_QUOTE   &kp TILDE  &reset_terminal  &kp END   &kp PLUS    &kp MINUS  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
+&kp INSERT  &notequal    &equals_left  &or       &kp DOUBLE_QUOTES  &kp GRAVE                             &Plusminus  &kp EQUAL  &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &none
+                                       &none     &none              &none                                 &none       &none      &none
             >;
         };
 
