@@ -316,10 +316,10 @@
             // RIGHT: Numbers (unchanged)
 
             bindings = <
-&none  &none  &none          &kp LG(N)      &kp LG(H)      &kp LG(G)      &none  &kp RS(RG(MINUS))  &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &kp BSPC
-&none  &none  &kp LG(LC(S))  &kp LG(LC(D))  &kp LG(LC(L))  &kp LG(LC(C))  &none  &kp LG(MINUS)      &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &none
-&none  &none  &none          &kp LG(LC(V))  &kp LG(LS(Y))  &kp LG(LS(W))                            &none   &kp N7        &kp N8        &kp N9        &none  &none
-                             &none          &none          &none                                    &kp N0  &none         &none
+&kp LC(LG(I))  &none  &none          &kp LG(N)      &kp LG(H)      &kp LG(G)      &none  &kp RS(RG(MINUS))  &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &kp BSPC
+&none          &none  &kp LG(LC(S))  &kp LG(LC(D))  &kp LG(LC(L))  &kp LG(LC(C))  &none  &kp LG(MINUS)      &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &none
+&none          &none  &none          &kp LG(LC(V))  &kp LG(LS(Y))  &kp LG(LS(W))                            &none   &kp N7        &kp N8        &kp N9        &none  &none
+                                     &none          &none          &none                                    &kp N0  &none         &none
             >;
         };
 
