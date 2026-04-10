@@ -278,9 +278,9 @@
             quick-tap-ms = <175>;
         };
 
-        copilor_hold_tap: copilor_hold_tap {
+        copilot_hold_tap: copilot_hold_tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "COPILOR_HOLD_TAP";
+            label = "COPILOT_HOLD_TAP";
             bindings = <&accept_copilot>, <&kp>;
 
             #binding-cells = <2>;
@@ -314,7 +314,7 @@
 &kp TAB     &kp Q                  &kp W                   &kp E                      &kp R                     &kp T       &kp C_MUTE             &caps_word  &kp Y    &kp U                      &kp I                &kp O                &kp P                      &kp BSPC
 &kp DOLLAR  &a_holdtap LEFT_ALT A  &sl_holdtab LEFT_GUI S  &dk_holdtap LCTRL D        &fj_holdtap LEFT_SHIFT F  &kp G       &kp LC(RIGHT_BRACKET)  &kp RC(E)   &kp H    &fj_holdtap RIGHT_SHIFT J  &dk_holdtap RCTRL K  &sl_holdtab RMETA L  &a_holdtap RIGHT_ALT SEMI  &del_hoid_tap DELETE 0
 &kp STAR    &lt 4 Z                &lt 3 X                 &lt 2 C                    &lt 1 V                   &kp B                                          &kp N    &lt 1 M                    &lt 2 COMMA          &lt 3 DOT            &lt 4 SLASH                &kp UNDER
-                                                           &copilor_hold_tap 0 LC(L)  &kp SPACE                 &kp ESCAPE                                     &kp RET  &kp SPACE                  &kp LC(Y)
+                                                           &copilot_hold_tap 0 LC(L)  &kp SPACE                 &kp ESCAPE                                     &kp RET  &kp SPACE                  &kp LC(Y)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_BRI_DN C_BRI_UP>;
