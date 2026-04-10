@@ -94,7 +94,7 @@
         accept_copilot: accept_copilot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LC(J)>;
+            bindings = <&none &kp LC(J) &kp LC(E)>;
             label = "ACCEPT_COPILOT";
             wait-ms = <100>;
             tap-ms = <50>;
