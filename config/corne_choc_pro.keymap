@@ -103,6 +103,8 @@
             #binding-cells = <0>;
             bindings = <&none &kp LC(J) &kp LC(E)>;
             label = "ACCEPT_COPILOT";
+            wait-ms = <100>;
+            tap-ms = <50>;
         };
 
         tmux_down: tmux_down {
@@ -274,9 +276,9 @@
             quick-tap-ms = <175>;
         };
 
-        hold_tap_macro_copilot: hold_tap_macro_copilot {
+        copilor_hold_tap: copilor_hold_tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAP_MACRO_COPILOT";
+            label = "COPILOR_HOLD_TAP";
             bindings = <&accept_copilot>, <&kp>;
 
             #binding-cells = <2>;
@@ -284,9 +286,9 @@
             tapping-term-ms = <200>;
         };
 
-        hoid_tap_del: hoid_tap_del {
+        del_hoid_tap: del_hoid_tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOID_TAP_DEL";
+            label = "DEL_HOID_TAP";
             bindings = <&kp>, <&none>;
 
             #binding-cells = <2>;
@@ -307,10 +309,10 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB     &kp Q                  &kp W                   &kp E                            &kp R                     &kp T       &kp C_MUTE             &caps_word  &kp Y    &kp U                      &kp I                &kp O                &kp P                      &kp BSPC
-&kp DOLLAR  &a_holdtap LEFT_ALT A  &sl_holdtab LEFT_GUI S  &dk_holdtap LCTRL D              &fj_holdtap LEFT_SHIFT F  &kp G       &kp LC(RIGHT_BRACKET)  &kp RC(E)   &kp H    &fj_holdtap RIGHT_SHIFT J  &dk_holdtap RCTRL K  &sl_holdtab RMETA L  &a_holdtap RIGHT_ALT SEMI  &hoid_tap_del DELETE 0
-&kp STAR    &lt 4 Z                &lt 3 X                 &lt 2 C                          &lt 1 V                   &kp B                                          &kp N    &lt 1 M                    &lt 2 COMMA          &lt 3 DOT            &lt 4 SLASH                &kp UNDER
-                                                           &hold_tap_macro_copilot 0 LC(L)  &kp SPACE                 &kp ESCAPE                                     &kp RET  &kp SPACE                  &kp LC(Y)
+&kp TAB     &kp Q                  &kp W                   &kp E                      &kp R                     &kp T       &kp C_MUTE             &caps_word  &kp Y    &kp U                      &kp I                &kp O                &kp P                      &kp BSPC
+&kp DOLLAR  &a_holdtap LEFT_ALT A  &sl_holdtab LEFT_GUI S  &dk_holdtap LCTRL D        &fj_holdtap LEFT_SHIFT F  &kp G       &kp LC(RIGHT_BRACKET)  &kp RC(E)   &kp H    &fj_holdtap RIGHT_SHIFT J  &dk_holdtap RCTRL K  &sl_holdtab RMETA L  &a_holdtap RIGHT_ALT SEMI  &del_hoid_tap DELETE 0
+&kp STAR    &lt 4 Z                &lt 3 X                 &lt 2 C                    &lt 1 V                   &kp B                                          &kp N    &lt 1 M                    &lt 2 COMMA          &lt 3 DOT            &lt 4 SLASH                &kp UNDER
+                                                           &copilor_hold_tap 0 LC(L)  &kp SPACE                 &kp ESCAPE                                     &kp RET  &kp SPACE                  &kp LC(Y)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_BRI_DN C_BRI_UP>;
