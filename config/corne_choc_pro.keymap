@@ -330,7 +330,7 @@
 
             bindings = <
 &kp LC(LG(I))  &none  &none          &kp LG(N)      &kp LG(H)      &kp LG(G)      &none  &kp RS(RG(MINUS))  &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &kp BSPC
-&none          &none  &kp LG(LC(S))  &kp LG(LC(D))  &kp LG(LC(L))  &kp LG(LC(C))  &none  &kp LG(MINUS)      &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &none
+&kp LC(LG(T))  &none  &kp LG(LC(S))  &kp LG(LC(D))  &kp LG(LC(L))  &kp LG(LC(C))  &none  &kp LG(MINUS)      &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &none
 &none          &none  &none          &kp LG(LC(V))  &kp LG(LS(Y))  &kp LG(LS(W))                            &none   &kp N7        &kp N8        &kp N9        &none  &none
                                      &none          &none          &none                                    &kp N0  &none         &none
             >;
@@ -366,9 +366,9 @@
         TMUX_MOUSE {
             display-name = "TMUX_MOUSE";
             bindings = <
-&tmux_create  &none       &none       &none        &none         &tmux_split      &tmux_next  &kp LG(LS(T))  &kp LS(LG(L))   &kp PAGE_DOWN   &kp PG_UP     &none            &none  &none
-&none         &none       &tmux_left  &tmux_up     &tmux_down    &tmux_right      &tmux_prev  &kp C_PAUSE    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none  &none
-&none         &tmux_zoom  &none       &tmux_close  &tmux_vsplit  &none                                       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none  &none
+&tmux_create  &none       &none       &none        &none         &tmux_split      &tmux_next  &kp LG(LS(T))  &none           &kp PAGE_DOWN   &kp PG_UP     &none            &none  &kp LS(LG(K))
+&none         &none       &tmux_left  &tmux_up     &tmux_down    &tmux_right      &tmux_prev  &kp C_PAUSE    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none  &kp LS(LG(L))
+&none         &tmux_zoom  &none       &tmux_close  &tmux_vsplit  &none                                       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none  &kp LS(LG(J))
                                       &none        &tmux_pageup  &tmux_copy_mode                             &mkp LCLK       &mkp MCLK       &mkp RCLK
             >;
         };
