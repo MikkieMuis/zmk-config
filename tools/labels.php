@@ -51,8 +51,8 @@ return [
     'dk_holdtap LCTRL D'                 => "D", // D
     'fj_holdtap LEFT_SHIFT F'            => "F", // F
     'kp G'                               => "G", // G
-    'kp LC(RIGHT_BRACKET)'               => "C-]", // C-]
-    'kp RC(E)'                           => "C-E", // C-E
+    'kp LC(RIGHT_BRACKET)'               => "CTRL\n]", // C-]
+    'kp RC(E)'                           => "CTRL\nE", // C-E
     'kp H'                               => "H", // H
     'fj_holdtap RIGHT_SHIFT J'           => "J", // J
     'dk_holdtap RCTRL K'                 => "K", // K
@@ -75,26 +75,26 @@ return [
     'kp UNDER'                           => "_", // _
 
     // Thumbs
-    'copilot_hold_tap 0 LC(L)'           => "Copilot/C-L", // Copilot/C-L
-    'kp SPACE'                           => "Spc", // Spc
+    'copilot_hold_tap 0 LC(L)'           => "CTRL\nJ / L", // Copilot/C-L
+    'kp SPACE'                           => "␣", // ␣
     'kp ESCAPE'                          => "Esc", // Esc
     'kp RET'                             => "↵", // ↵
-    'kp SPACE'                           => "Spc", // Spc
-    'kp LC(Y)'                           => "C-Y", // C-Y
+    'kp SPACE'                           => "␣", // ␣
+    'kp LC(Y)'                           => "CTRL\nY", // C-Y
 
     // ──────────────────────────────────────────────────────────────────────
     // Layer 1 — WARPD
     // ──────────────────────────────────────────────────────────────────────
 
     // Row 0
-    'kp LC(LG(I))'                       => "C-Sup-I", // C-Sup-I
+    'kp LC(LG(I))'                       => "Inbox", // C-Sup-I
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
-    'kp LG(N)'                           => "Sup-N", // Sup-N
-    'kp LG(H)'                           => "Sup-H", // Sup-H
-    'kp LG(G)'                           => "Sup-G", // Sup-G
+    'kp LG(N)'                           => "Normal", // Sup-N
+    'kp LG(H)'                           => "HINT", // Sup-H
+    'kp LG(G)'                           => "GRID", // Sup-G
     'none'                               => "", // (empty)
-    'kp RS(RG(MINUS))'                   => "S-Sup--", // S-Sup--
+    'kp RS(RG(MINUS))'                   => "Add\nSP", // Add SP
     'none'                               => "", // (empty)
     'kp NUMBER_1'                        => "1", // 1
     'kp NUMBER_2'                        => "2", // 2
@@ -103,14 +103,14 @@ return [
     'none'                               => "", // (empty)
 
     // Row 1
-    'kp LC(LG(T))'                       => "C-Sup-T", // C-Sup-T
+    'kp LC(LG(T))'                       => "Tasks", // C-Sup-T
     'none'                               => "", // (empty)
-    'kp LG(LC(S))'                       => "Sup-C-S", // Sup-C-S
-    'kp LG(LC(D))'                       => "Sup-C-D", // Sup-C-D
-    'kp LG(LC(L))'                       => "Sup-C-L", // Sup-C-L
-    'kp LG(LC(C))'                       => "Sup-C-C", // Sup-C-C
+    'kp LG(LC(S))'                       => "GRID\nSTART\nSELECT", // Sup-C-S
+    'kp LG(LC(D))'                       => "GRID\nDONE\nSELECT", // Sup-C-D
+    'kp LG(LC(L))'                       => "GRID\nCOPY\nLINE", // Sup-C-L
+    'kp LG(LC(C))'                       => "GRID\nCOPY\nWORD", // Sup-C-C
     'none'                               => "", // (empty)
-    'kp LG(MINUS)'                       => "Sup--", // Sup--
+    'kp LG(MINUS)'                       => "SP", // Sup--
     'none'                               => "", // (empty)
     'kp NUMBER_4'                        => "4", // 4
     'kp N5'                              => "5", // 5
@@ -122,9 +122,9 @@ return [
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
-    'kp LG(LC(V))'                       => "Sup-C-V", // Sup-C-V
-    'kp LG(LS(Y))'                       => "Sup-S-Y", // Sup-S-Y
-    'kp LG(LS(W))'                       => "Sup-S-W", // Sup-S-W
+    'kp LG(LC(V))'                       => "Paste", // Sup-C-V
+    'kp LG(LS(Y))'                       => "HINT\nCOPY\nLINE", // Sup-S-Y
+    'kp LG(LS(W))'                       => "HINT\nCOPY\nWORD", // Sup-S-W
     'none'                               => "", // (empty)
     'kp N7'                              => "7", // 7
     'kp N8'                              => "8", // 8
@@ -179,12 +179,12 @@ return [
     // ──────────────────────────────────────────────────────────────────────
 
     // Row 0
-    'kp LS(LG(P))'                       => "S-Sup-P", // S-Sup-P
-    'kp LG(F1)'                          => "Sup-F1", // Sup-F1
-    'kp LG(F2)'                          => "Sup-F2", // Sup-F2
-    'kp LG(F3)'                          => "Sup-F3", // Sup-F3
-    'none'                               => "", // (empty)
-    'none'                               => "", // (empty)
+    'kp LS(LG(P))'                       => "SCRN\nREC", // S-Sup-P
+    'kp LG(F1)'                          => "GF1", // Sup-F1
+    'kp LG(F2)'                          => "GF2", // Sup-F2
+    'kp LG(F3)'                          => "GF3", // Sup-F3
+    'kp LG(F4)'                          => "GF4", // Sup-F4
+    'kp LG(F5)'                          => "GF5", // Sup-F5
     'kp K_VOLUME_UP'                     => "Vol+", // Vol+
     'kp C_BRI_UP'                        => "Bri+", // Bri+
     'none'                               => "", // (empty)
@@ -192,15 +192,15 @@ return [
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
-    'kp LS(LG(Q))'                       => "S-Sup-Q", // S-Sup-Q
+    'kp LS(LG(Q))'                       => "CLOSE\nSCRN", // S-Sup-Q
 
     // Row 1
-    'kp RG(RS(C))'                       => "Sup-S-C", // Sup-S-C
+    'kp RG(RS(C))'                       => "Reload", // Sup-S-C
     'none'                               => "", // (empty)
-    'kp LG(LEFT_ARROW)'                  => "Sup-←", // Sup-←
-    'kp LG(TAB)'                         => "Sup-Tab", // Sup-Tab
-    'kp LG(PRINTSCREEN)'                 => "Sup-PrtSc", // Sup-PrtSc
-    'kp RG(RIGHT_ARROW)'                 => "Sup-→", // Sup-→
+    'kp LG(LEFT_ARROW)'                  => "G\n←", // Sup-←
+    'kp LG(TAB)'                         => "NEXT\nWS", // Sup-Tab
+    'kp LG(PRINTSCREEN)'                 => "PRNT\nSCRN", // Sup-PrtSc
+    'kp RG(RIGHT_ARROW)'                 => "G\n→", // Sup-→
     'kp K_VOLUME_DOWN'                   => "Vol-", // Vol-
     'kp C_BRI_DEC'                       => "Bri-", // Bri-
     'kp LEFT_ARROW'                      => "←", // ←
@@ -208,10 +208,10 @@ return [
     'kp UP_ARROW'                        => "↑", // ↑
     'kp RIGHT_ARROW'                     => "→", // →
     'none'                               => "", // (empty)
-    'kp LS(LG(F))'                       => "S-Sup-F", // S-Sup-F
+    'kp LS(LG(F))'                       => "FULL\nSCRN", // S-Sup-F
 
     // Row 2
-    'kp RS(RG(E))'                       => "S-Sup-E", // S-Sup-E
+    'kp RS(RG(E))'                       => "Exit", // S-Sup-E
     'kp F1'                              => "F1", // F1
     'kp F2'                              => "F2", // F2
     'kp F3'                              => "F3", // F3
@@ -222,7 +222,7 @@ return [
     'kp F8'                              => "F8", // F8
     'kp F9'                              => "F9", // F9
     'kp F10'                             => "F10", // F10
-    'kp LS(LG(U))'                       => "S-Sup-U", // S-Sup-U
+    'kp LS(LG(U))'                       => "Unload", // S-Sup-U
 
     // Thumbs
     'trans'                              => "", // (empty)
@@ -261,10 +261,10 @@ return [
     'tmux_right'                         => "tmux\n→", // tmux →
     'tmux_prev'                          => "tmux\nprev", // tmux prev
     'kp C_PAUSE'                         => "Pause", // Pause
-    'mmv MOVE_LEFT'                      => "← mse", // ← mse
-    'mmv MOVE_DOWN'                      => "↓ mse", // ↓ mse
-    'mmv MOVE_UP'                        => "↑ mse", // ↑ mse
-    'mmv MOVE_RIGHT'                     => "→ mse", // → mse
+    'mmv MOVE_LEFT'                      => "←", // ← mse
+    'mmv MOVE_DOWN'                      => "↓", // ↓ mse
+    'mmv MOVE_UP'                        => "↑", // ↑ mse
+    'mmv MOVE_RIGHT'                     => "→", // → mse
     'none'                               => "", // (empty)
     'kp LS(LG(L))'                       => "S-Sup-L", // S-Sup-L
 
@@ -296,13 +296,13 @@ return [
 
     // Row 0
     'sys_reset'                          => "Reset", // Reset
-    'bt BT_CLR'                          => "BT clr", // BT clr
-    'bt BT_CLR_ALL'                      => "BT clr all", // BT clr all
+    'bt BT_CLR'                          => "BT\nCLR", // BT clr
+    'bt BT_CLR_ALL'                      => "BT\nCLR\nALL", // BT clr all
     'bootloader'                         => "Boot", // Boot
-    'studio_unlock'                      => "Studio", // Studio
+    'studio_unlock'                      => "Studio\nUnlock", // Studio
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
-    'rgb_ug RGB_ON'                      => "RGB on", // RGB on
+    'rgb_ug RGB_ON'                      => "ON", // RGB on
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
@@ -318,33 +318,33 @@ return [
     'bt BT_SEL 3'                        => "BT 3", // BT 3
     'bt BT_SEL 4'                        => "BT 4", // BT 4
     'none'                               => "", // (empty)
-    'rgb_ug RGB_OFF'                     => "RGB off", // RGB off
-    'rgb_ug RGB_HUI'                     => "Hue+", // Hue+
-    'rgb_ug RGB_SAI'                     => "Sat+", // Sat+
-    'rgb_ug RGB_BRI'                     => "Bri+", // Bri+
-    'rgb_ug RGB_SPI'                     => "Spd+", // Spd+
-    'rgb_ug RGB_EFF'                     => "Eff+", // Eff+
+    'rgb_ug RGB_OFF'                     => "OFF", // RGB off
+    'rgb_ug RGB_HUI'                     => "Hue\n+", // Hue+
+    'rgb_ug RGB_SAI'                     => "Sat\n+", // Sat+
+    'rgb_ug RGB_BRI'                     => "Bri\n+", // Bri+
+    'rgb_ug RGB_SPI'                     => "Speed\n+", // Spd+
+    'rgb_ug RGB_EFF'                     => "Eff\n+", // Eff+
     'none'                               => "", // (empty)
 
     // Row 2
     'none'                               => "", // (empty)
-    'bt BT_DISC 0'                       => "BT disc 0", // BT disc 0
-    'bt BT_DISC 1'                       => "BT disc 1", // BT disc 1
-    'bt BT_DISC 2'                       => "BT disc 2", // BT disc 2
-    'bt BT_DISC 3'                       => "BT disc 3", // BT disc 3
-    'bt BT_DISC 4'                       => "BT disc 4", // BT disc 4
-    'rgb_ug RGB_HUD'                     => "Hue-", // Hue-
-    'rgb_ug RGB_SAD'                     => "Sat-", // Sat-
-    'rgb_ug RGB_BRD'                     => "Bri-", // Bri-
-    'rgb_ug RGB_SPD'                     => "Spd-", // Spd-
-    'rgb_ug RGB_EFR'                     => "Eff-", // Eff-
-    'studio_unlock'                      => "Studio", // Studio
+    'bt BT_DISC 0'                       => "BT 0\nOFF", // BT disc 0
+    'bt BT_DISC 1'                       => "BT 1\nOFF", // BT disc 1
+    'bt BT_DISC 2'                       => "BT 2\nOFF", // BT disc 2
+    'bt BT_DISC 3'                       => "BT 3\nOFF", // BT disc 3
+    'bt BT_DISC 4'                       => "BT 4\nOFF", // BT disc 4
+    'rgb_ug RGB_HUD'                     => "Hue\n-", // Hue-
+    'rgb_ug RGB_SAD'                     => "Sat\n-", // Sat-
+    'rgb_ug RGB_BRD'                     => "Bri\n-", // Bri-
+    'rgb_ug RGB_SPD'                     => "Speed\n-", // Spd-
+    'rgb_ug RGB_EFR'                     => "Eff\n-", // Eff-
+    'studio_unlock'                      => "Studio\nUnlock", // Studio
 
     // Thumbs
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
-    'rgb_ug RGB_TOG'                     => "RGB tog", // RGB tog
+    'rgb_ug RGB_TOG'                     => "RGB\ntoggle", // RGB tog
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
 
