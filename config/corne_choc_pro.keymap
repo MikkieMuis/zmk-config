@@ -284,8 +284,8 @@
             bindings = <&accept_copilot>, <&kp>;
 
             #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <300>;
         };
 
         del_hoid_tap: del_hoid_tap {
