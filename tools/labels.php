@@ -51,8 +51,8 @@ return [
     'dk_holdtap LCTRL D'                 => "D", // D
     'fj_holdtap LEFT_SHIFT F'            => "F", // F
     'kp G'                               => "G", // G
-    'kp LC(RIGHT_BRACKET)'               => "CTRL\n]", // C-]
-    'kp RC(E)'                           => "CTRL\nE", // C-E
+    'kp LC(RIGHT_BRACKET)'               => "Ctrl\n]", // C-]
+    'kp RC(E)'                           => "Ctrl\nE", // C-E
     'kp H'                               => "H", // H
     'fj_holdtap RIGHT_SHIFT J'           => "J", // J
     'dk_holdtap RCTRL K'                 => "K", // K
@@ -75,12 +75,12 @@ return [
     'kp UNDER'                           => "_", // _
 
     // Thumbs
-    'copilot_hold_tap 0 LC(L)'           => "CTRL\nJ / L", // Copilot/C-L
+    'copilot_hold_tap 0 LC(L)'           => "Ctrl\nJ / L", // Copilot/C-L
     'kp SPACE'                           => "␣", // ␣
     'kp ESCAPE'                          => "Esc", // Esc
     'kp RET'                             => "↵", // ↵
     'kp SPACE'                           => "␣", // ␣
-    'kp LC(Y)'                           => "CTRL\nY", // C-Y
+    'kp LC(Y)'                           => "Ctrl\nY", // C-Y
 
     // ──────────────────────────────────────────────────────────────────────
     // Layer 1 — WARPD
@@ -91,8 +91,8 @@ return [
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
     'kp LG(N)'                           => "Normal", // Sup-N
-    'kp LG(H)'                           => "HINT", // Sup-H
-    'kp LG(G)'                           => "GRID", // Sup-G
+    'kp LG(H)'                           => "Hint", // Sup-H
+    'kp LG(G)'                           => "Grid", // Sup-G
     'none'                               => "", // (empty)
     'kp RS(RG(MINUS))'                   => "Add\nSP", // Add SP
     'none'                               => "", // (empty)
@@ -105,10 +105,10 @@ return [
     // Row 1
     'kp LC(LG(T))'                       => "Tasks", // C-Sup-T
     'none'                               => "", // (empty)
-    'kp LG(LC(S))'                       => "GRID\nSTART\nSELECT", // Sup-C-S
-    'kp LG(LC(D))'                       => "GRID\nDONE\nSELECT", // Sup-C-D
-    'kp LG(LC(L))'                       => "GRID\nCOPY\nLINE", // Sup-C-L
-    'kp LG(LC(C))'                       => "GRID\nCOPY\nWORD", // Sup-C-C
+    'kp LG(LC(S))'                       => "Grid\nStart\nSelect", // Sup-C-S
+    'kp LG(LC(D))'                       => "Grid\nDone\nSelect", // Sup-C-D
+    'kp LG(LC(L))'                       => "Grid\nCopy\nLine", // Sup-C-L
+    'kp LG(LC(C))'                       => "Grid\nCopy\nWord", // Sup-C-C
     'none'                               => "", // (empty)
     'kp LG(MINUS)'                       => "SP", // Sup--
     'none'                               => "", // (empty)
@@ -123,8 +123,8 @@ return [
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
     'kp LG(LC(V))'                       => "Paste", // Sup-C-V
-    'kp LG(LS(Y))'                       => "HINT\nCOPY\nLINE", // Sup-S-Y
-    'kp LG(LS(W))'                       => "HINT\nCOPY\nWORD", // Sup-S-W
+    'kp LG(LS(Y))'                       => "HintxnCopy\nLine", // Sup-S-Y
+    'kp LG(LS(W))'                       => "Hint\nCopy\nWord", // Sup-S-W
     'none'                               => "", // (empty)
     'kp N7'                              => "7", // 7
     'kp N8'                              => "8", // 8
@@ -179,7 +179,7 @@ return [
     // ──────────────────────────────────────────────────────────────────────
 
     // Row 0
-    'kp LS(LG(P))'                       => "SCRN\nREC", // S-Sup-P
+    'kp LS(LG(P))'                       => "Screen\nRec", // S-Sup-P
     'kp LG(F1)'                          => "GF1", // Sup-F1
     'kp LG(F2)'                          => "GF2", // Sup-F2
     'kp LG(F3)'                          => "GF3", // Sup-F3
@@ -192,14 +192,14 @@ return [
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
-    'kp LS(LG(Q))'                       => "CLOSE\nSCRN", // S-Sup-Q
+    'kp LS(LG(Q))'                       => "Close\nScreen", // S-Sup-Q
 
     // Row 1
-    'kp RG(RS(C))'                       => "Reload", // Sup-S-C
+    'kp RG(RS(C))'                       => "Reload\nSway", // Sup-S-C
     'none'                               => "", // (empty)
     'kp LG(LEFT_ARROW)'                  => "G\n←", // Sup-←
-    'kp LG(TAB)'                         => "NEXT\nWS", // Sup-Tab
-    'kp LG(PRINTSCREEN)'                 => "PRNT\nSCRN", // Sup-PrtSc
+    'kp LG(TAB)'                         => "Next\nWork\nSpace", // Sup-Tab
+    'kp LG(PRINTSCREEN)'                 => "Print\nScreen", // Sup-PrtSc
     'kp RG(RIGHT_ARROW)'                 => "G\n→", // Sup-→
     'kp K_VOLUME_DOWN'                   => "Vol-", // Vol-
     'kp C_BRI_DEC'                       => "Bri-", // Bri-
@@ -208,7 +208,7 @@ return [
     'kp UP_ARROW'                        => "↑", // ↑
     'kp RIGHT_ARROW'                     => "→", // →
     'none'                               => "", // (empty)
-    'kp LS(LG(F))'                       => "FULL\nSCRN", // S-Sup-F
+    'kp LS(LG(F))'                       => "Full\nScreen", // S-Sup-F
 
     // Row 2
     'kp RS(RG(E))'                       => "Exit", // S-Sup-E
@@ -222,7 +222,7 @@ return [
     'kp F8'                              => "F8", // F8
     'kp F9'                              => "F9", // F9
     'kp F10'                             => "F10", // F10
-    'kp LS(LG(U))'                       => "Unload", // S-Sup-U
+    'kp LS(LG(U))'                       => "Unload\nDisk", // S-Sup-U
 
     // Thumbs
     'trans'                              => "", // (empty)
@@ -237,58 +237,58 @@ return [
     // ──────────────────────────────────────────────────────────────────────
 
     // Row 0
-    'tmux_create'                        => "tmux\nnew", // tmux new
+    'tmux_create'                        => "Tmux\nnew", // Tmux new
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
-    'tmux_split'                         => "tmux\nsplit", // tmux split
-    'tmux_next'                          => "tmux\nnext", // tmux next
-    'kp LG(LS(T))'                       => "Sup-S-T", // Sup-S-T
+    'tmux_split'                         => "Tmux\nsplit", // tmux split
+    'tmux_next'                          => "Tmux\nnext", // tmux next
+    'kp LG(LS(T))'                       => "Toggle\nMouse", // Sup-S-T
+    'none'                               => "", //i(empty)
+    'kp PAGE_DOWN'                       => "Page\n↓", // Page ↓
+    'kp PG_UP'                           => "Page\n↑", // Page ↑
     'none'                               => "", // (empty)
-    'kp PAGE_DOWN'                       => "PgDn", // PgDn
-    'kp PG_UP'                           => "PgUp", // PgUp
     'none'                               => "", // (empty)
-    'none'                               => "", // (empty)
-    'kp LS(LG(K))'                       => "S-Sup-K", // S-Sup-K
+    'kp LS(LG(K))'                       => "Center\nTop", // S-Sup-K
 
     // Row 1
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
-    'tmux_left'                          => "tmux\n←", // tmux ←
-    'tmux_up'                            => "tmux\n↑", // tmux ↑
-    'tmux_down'                          => "tmux\n↓", // tmux ↓
-    'tmux_right'                         => "tmux\n→", // tmux →
-    'tmux_prev'                          => "tmux\nprev", // tmux prev
+    'tmux_left'                          => "Tmux\n←", // tmux ←
+    'tmux_up'                            => "Tmux\n↑", // tmux ↑
+    'tmux_down'                          => "Tmux\n↓", // tmux ↓
+    'tmux_right'                         => "Tmux\n→", // tmux →
+    'tmux_prev'                          => "Tmux\nprev", // tmux prev
     'kp C_PAUSE'                         => "Pause", // Pause
     'mmv MOVE_LEFT'                      => "←", // ← mse
     'mmv MOVE_DOWN'                      => "↓", // ↓ mse
     'mmv MOVE_UP'                        => "↑", // ↑ mse
     'mmv MOVE_RIGHT'                     => "→", // → mse
     'none'                               => "", // (empty)
-    'kp LS(LG(L))'                       => "S-Sup-L", // S-Sup-L
+    'kp LS(LG(L))'                       => "Center", // S-Sup-L
 
     // Row 2
     'none'                               => "", // (empty)
-    'tmux_zoom'                          => "tmux\nzoom", // tmux zoom
+    'tmux_zoom'                          => "Tmux\nzoom", // tmux zoom
     'none'                               => "", // (empty)
-    'tmux_close'                         => "tmux\nclose", // tmux close
-    'tmux_vsplit'                        => "tmux\nvsplit", // tmux vsplit
+    'tmux_close'                         => "Tmux\nclose", // tmux close
+    'tmux_vsplit'                        => "Tmux\nvsplit", // tmux vsplit
     'none'                               => "", // (empty)
-    'msc SCRL_LEFT'                      => "← scrl", // ← scrl
-    'msc SCRL_DOWN'                      => "↓ scrl", // ↓ scrl
-    'msc SCRL_UP'                        => "↑ scrl", // ↑ scrl
-    'msc SCRL_RIGHT'                     => "→ scrl", // → scrl
+    'msc SCRL_LEFT'                      => "Screen\n←", // ← scrl
+    'msc SCRL_DOWN'                      => "Screen\n↓", // ↓ scrl
+    'msc SCRL_UP'                        => "Screen\n↑", // ↑ scrl
+    'msc SCRL_RIGHT'                     => "Screen\n→", // → scrl
     'none'                               => "", // (empty)
-    'kp LS(LG(J))'                       => "S-Sup-J", // S-Sup-J
+    'kp LS(LG(J))'                       => "Center\nBottom", // S-Sup-J
 
     // Thumbs
     'none'                               => "", // (empty)
-    'tmux_pageup'                        => "tmux\npgup", // tmux pgup
-    'tmux_copy_mode'                     => "tmux\ncopy", // tmux copy
-    'mkp LCLK'                           => "LClk", // LClk
-    'mkp MCLK'                           => "MClk", // MClk
-    'mkp RCLK'                           => "RClk", // RClk
+    'tmux_pageup'                        => "Tmux\npgup", // tmux pgup
+    'tmux_copy_mode'                     => "Tmux\ncopy", // tmux copy
+    'mkp LCLK'                           => "Left ", // LClk
+    'mkp MCLK'                           => " Mid ", // MClk
+    'mkp RCLK'                           => "Right", // RClk
 
     // ──────────────────────────────────────────────────────────────────────
     // Layer 5 — BT + RGB
@@ -296,13 +296,13 @@ return [
 
     // Row 0
     'sys_reset'                          => "Reset", // Reset
-    'bt BT_CLR'                          => "BT\nCLR", // BT clr
-    'bt BT_CLR_ALL'                      => "BT\nCLR\nALL", // BT clr all
+    'bt BT_CLR'                          => "BT\nClear", // BT clr
+    'bt BT_CLR_ALL'                      => "BT\nClear\nAll", // BT clr all
     'bootloader'                         => "Boot", // Boot
     'studio_unlock'                      => "Studio\nUnlock", // Studio
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
-    'rgb_ug RGB_ON'                      => "ON", // RGB on
+    'rgb_ug RGB_ON'                      => "On", // RGB on
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
@@ -318,7 +318,7 @@ return [
     'bt BT_SEL 3'                        => "BT 3", // BT 3
     'bt BT_SEL 4'                        => "BT 4", // BT 4
     'none'                               => "", // (empty)
-    'rgb_ug RGB_OFF'                     => "OFF", // RGB off
+    'rgb_ug RGB_OFF'                     => "Off", // RGB off
     'rgb_ug RGB_HUI'                     => "Hue\n+", // Hue+
     'rgb_ug RGB_SAI'                     => "Sat\n+", // Sat+
     'rgb_ug RGB_BRI'                     => "Bri\n+", // Bri+
@@ -328,11 +328,11 @@ return [
 
     // Row 2
     'none'                               => "", // (empty)
-    'bt BT_DISC 0'                       => "BT 0\nOFF", // BT disc 0
-    'bt BT_DISC 1'                       => "BT 1\nOFF", // BT disc 1
-    'bt BT_DISC 2'                       => "BT 2\nOFF", // BT disc 2
-    'bt BT_DISC 3'                       => "BT 3\nOFF", // BT disc 3
-    'bt BT_DISC 4'                       => "BT 4\nOFF", // BT disc 4
+    'bt BT_DISC 0'                       => "BT 0\nOff", // BT disc 0
+    'bt BT_DISC 1'                       => "BT 1\nOff", // BT disc 1
+    'bt BT_DISC 2'                       => "BT 2\nOff", // BT disc 2
+    'bt BT_DISC 3'                       => "BT 3\nOff", // BT disc 3
+    'bt BT_DISC 4'                       => "BT 4\nOff", // BT disc 4
     'rgb_ug RGB_HUD'                     => "Hue\n-", // Hue-
     'rgb_ug RGB_SAD'                     => "Sat\n-", // Sat-
     'rgb_ug RGB_BRD'                     => "Bri\n-", // Bri-
