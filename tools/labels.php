@@ -69,9 +69,9 @@ return [
     'kp B'                               => "B", // B
     'kp N'                               => "N", // N
     'lt 1 M'                             => "M", // M
-    'lt 2 COMMA'                         => ",", // ,
-    'lt 3 DOT'                           => ".", // .
-    'lt 4 SLASH'                         => "/", // /
+    'lt 2 COMMA'                         => "<\n,", // ,
+    'lt 3 DOT'                           => ">\n.", // .
+    'lt 4 SLASH'                         => "?\n/", // /
     'kp UNDER'                           => "_", // _
 
     // Thumbs
@@ -123,7 +123,7 @@ return [
     'none'                               => "", // (empty)
     'none'                               => "", // (empty)
     'kp LG(LC(V))'                       => "Paste", // Sup-C-V
-    'kp LG(LS(Y))'                       => "HintxnCopy\nLine", // Sup-S-Y
+    'kp LG(LS(Y))'                       => "Hint\nCopy\nLine", // Sup-S-Y
     'kp LG(LS(W))'                       => "Hint\nCopy\nWord", // Sup-S-W
     'none'                               => "", // (empty)
     'kp N7'                              => "7", // 7
@@ -211,7 +211,7 @@ return [
     'kp LS(LG(F))'                       => "Full\nScreen", // S-Sup-F
 
     // Row 2
-    'kp RS(RG(E))'                       => "Exit", // S-Sup-E
+    'kp RS(RG(E))'                       => "Exit\nSway", // S-Sup-E
     'kp F1'                              => "F1", // F1
     'kp F2'                              => "F2", // F2
     'kp F3'                              => "F3", // F3
