@@ -209,6 +209,11 @@
             key-positions = <6 7>;
         };
 
+        soft_reset_combo {
+            bindings = <&sys_reset>;
+            key-positions = <0 28>;
+        };
+
         arrow_left {
             bindings = <&kp LEFT_ARROW>;
             key-positions = <29 28>;
