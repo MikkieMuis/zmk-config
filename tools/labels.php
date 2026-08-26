@@ -104,7 +104,7 @@ return [
 
     // Row 1
     'kp LC(LG(T))'                       => "Tasks", // C-Sup-T
-    'none'                               => "", // (empty)
+    'kp LG(LS(G))'                       => "Grid\nHover", // Sup-S-G
     'kp LG(LC(S))'                       => "Grid\nStart\nSelect", // Sup-C-S
     'kp LG(LC(D))'                       => "Grid\nDone\nSelect", // Sup-C-D
     'kp LG(LC(L))'                       => "Grid\nCopy\nLine", // Sup-C-L
