@@ -189,6 +189,8 @@ $BEHAV_PARAMS = [
     // custom hold-taps  (2 params)
     'a_holdtap'=>2, 'fj_holdtap'=>2, 'dk_holdtap'=>2,
     'sl_holdtab'=>2, 'copilot_hold_tap'=>2, 'del_hoid_tap'=>2,
+    'lalt_hrm'=>2, 'lctrl_hrm'=>2, 'lshift_hrm'=>2, 'lgui_hrm'=>2,
+    'ralt_hrm'=>2, 'rctrl_hrm'=>2, 'rshift_hrm'=>2, 'rgui_hrm'=>2,
     // macros  (0 params)
     'dash_left'=>0,'equals_left'=>0,'or'=>0,'and'=>0,
     'equalequal'=>0,'notequal'=>0,'euro'=>0,'Pound'=>0,'Plusminus'=>0,
@@ -333,6 +335,14 @@ function binding_label(string $behavior, array $params): string
         case 'fj_holdtap':
         case 'dk_holdtap':
         case 'sl_holdtab':
+        case 'lalt_hrm':
+        case 'lctrl_hrm':
+        case 'lshift_hrm':
+        case 'lgui_hrm':
+        case 'ralt_hrm':
+        case 'rctrl_hrm':
+        case 'rshift_hrm':
+        case 'rgui_hrm':
             return parse_kp($params[1] ?? '?');
 
         case 'copilot_hold_tap':

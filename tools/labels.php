@@ -46,18 +46,18 @@ return [
 
     // Row 1
     'kp DOLLAR'                          => "$", // $
-    'a_holdtap LEFT_ALT A'               => "A", // A
-    'sl_holdtab LEFT_GUI S'              => "S", // S
-    'dk_holdtap LCTRL D'                 => "D", // D
-    'fj_holdtap LEFT_SHIFT F'            => "F", // F
+    'lalt_hrm LEFT_ALT A'                => "A", // A
+    'lgui_hrm LEFT_GUI S'               => "S", // S
+    'lctrl_hrm LCTRL D'                  => "D", // D
+    'lshift_hrm LEFT_SHIFT F'            => "F", // F
     'kp G'                               => "G", // G
     'kp LC(RIGHT_BRACKET)'               => "Ctrl\n]", // C-]
     'kp RC(E)'                           => "Ctrl\nE", // C-E
     'kp H'                               => "H", // H
-    'fj_holdtap RIGHT_SHIFT J'           => "J", // J
-    'dk_holdtap RCTRL K'                 => "K", // K
-    'sl_holdtab RMETA L'                 => "L", // L
-    'a_holdtap RIGHT_ALT SEMI'           => ";", // ;
+    'rshift_hrm RIGHT_SHIFT J'           => "J", // J
+    'rctrl_hrm RCTRL K'                  => "K", // K
+    'rgui_hrm RMETA L'                   => "L", // L
+    'ralt_hrm RIGHT_ALT SEMI'            => ";", // ;
     'kp DELETE'                          => "Del", // Del
 
     // Row 2
