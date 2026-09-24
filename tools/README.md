@@ -20,8 +20,11 @@ Two variants are generated:
 | `tools/generate_layout.php` | Portrait generator. Reads the keymap, emits `layout.svg`. Never edit this. |
 | `tools/generate_layout_landscape.php` | Landscape generator. Reads the keymap, emits `layout_landscape.svg`. Never edit this. |
 | `tools/labels.php` | Your custom key labels. **This is the only file you need to edit.** |
-| `tools/layout.svg` / `tools/layout.pdf` | Portrait output. Overwritten every run (not tracked by git). |
-| `tools/layout_landscape.svg` / `tools/layout_landscape.pdf` | Landscape output. Overwritten every run (not tracked by git). |
+| `tools/layout.svg` / `tools/layout.pdf` | Portrait output. Overwritten every run. |
+| `tools/layout_landscape.svg` / `tools/layout_landscape.pdf` | Landscape output. Overwritten every run. |
+
+All rendered SVG/PDF files are in a git subdirectory and are synced to GitHub
+together with the generators, so the full toolkit is identical on every machine.
 
 ---
 
@@ -54,6 +57,51 @@ Each key square will be exactly 1 cm.
 
 Open `layout_landscape.pdf` in a viewer and select **fit to window / zoom to
 fit**. The 16:10 page fills the monitor edge to edge.
+
+---
+
+## Syncing to GitHub
+
+> ⚠️ This section matters. Every sync runs into the same two issues below —
+> read them before the first commit.
+
+**1. Use the right git identity.**
+
+Commits without an explicit identity get an auto-generated one based on the
+current user/hostname (e.g. `root@LT10.net`), which lands on GitHub with the
+wrong author email. Always commit as `MikeMuis <MikkieMuis@users.noreply.github.com>`:
+
+```bash
+cd ~/github/zmk-config
+git add tools/ .
+git commit -m "your message"
+```
+
+If a commit was already made with the wrong identity, fix it before pushing:
+
+```bash
+GIT_AUTHOR_NAME=MikeMuis GIT_AUTHOR_EMAIL=MikkieMuis@users.noreply.github.com \
+GIT_COMMITTER_NAME=MikeMuis GIT_COMMITTER_EMAIL=MikkieMuis@users.noreply.github.com \
+git commit --amend --reset-author --no-edit
+```
+
+**2. Push with the right SSH keys.**
+
+The remote is `git@github.com:MikkieMuis/zmk-config.git`. If you see
+`Permission denied (publickey)`, you are not using your own `~/.ssh` — run the
+push as your normal user:
+
+```bash
+sudo -u rdruijter git push origin main
+```
+
+(A quick check that SSH auth works: `sudo -u rdruijter ssh -T git@github.com`
+should greet you as *Hi MikkieMuis!*)
+
+**3. `.bak` files stay local.**
+
+Editor backups (`*.bak`) are ignored via `.gitignore` — leave them on disk,
+they are never pushed.
 
 ---
 
