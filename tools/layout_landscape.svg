@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="462mm" height="288.75mm"
+     viewBox="0 0 462 288.75">
+
+<rect width="462" height="288.75" fill="white"/>
+
+<text x="12.000" y="24.975" font-size="4.20" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="start" dominant-baseline="middle" fill="#555">Base</text>
+<text x="222.000" y="24.975" font-size="4.20" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="end" dominant-baseline="middle" fill="#555">Base</text>
+<text x="117.000" y="54.975" font-size="8.40" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" dominant-baseline="middle" fill="#2e7d32">0</text>
+<rect x="12.000" y="33.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="19" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="19" y="42.381">Tab</tspan></text>
+<rect x="26.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="33" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="33" y="42.381">Q</tspan></text>
+<rect x="40.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="47" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="47" y="42.381">W</tspan></text>
+<rect x="54.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="61" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="61" y="42.381">E</tspan></text>
+<rect x="68.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="75" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="75" y="42.381">R</tspan></text>
+<rect x="82.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="89" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="89" y="42.381">T</tspan></text>
+<rect x="96.000" y="40.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="103" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="103" y="49.381">Mute</tspan></text>
+<rect x="124.000" y="40.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="131" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="131" y="46.569">Caps</tspan><tspan x="131" y="52.194">Word</tspan></text>
+<rect x="138.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="145" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="145" y="42.381">Y</tspan></text>
+<rect x="152.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="159" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="159" y="42.381">U</tspan></text>
+<rect x="166.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="173" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="173" y="42.381">I</tspan></text>
+<rect x="180.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="187" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="187" y="42.381">O</tspan></text>
+<rect x="194.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="201" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="201" y="42.381">P</tspan></text>
+<rect x="208.000" y="33.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="215" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="215" y="42.381">⌫</tspan></text>
+<rect x="12.000" y="47.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="19" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="19" y="56.381">$</tspan></text>
+<rect x="26.000" y="47.975" width="14" height="14" fill="#fff3e0" stroke="#d98a00" stroke-width="0.3" rx="1" />
+<text x="33" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="33" y="56.381">A</tspan></text>
+<rect x="40.000" y="47.975" width="14" height="14" fill="#fff3e0" stroke="#d98a00" stroke-width="0.3" rx="1" />
+<text x="47" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="47" y="56.381">S</tspan></text>
+<rect x="54.000" y="47.975" width="14" height="14" fill="#fff3e0" stroke="#d98a00" stroke-width="0.3" rx="1" />
+<text x="61" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="61" y="56.381">D</tspan></text>
+<rect x="68.000" y="47.975" width="14" height="14" fill="#fff3e0" stroke="#d98a00" stroke-width="0.3" rx="1" />
+<text x="75" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="75" y="56.381">F</tspan></text>
+<rect x="82.000" y="47.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="89" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="89" y="56.381">G</tspan></text>
+<rect x="96.000" y="54.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="103" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="103" y="60.569">Ctrl</tspan><tspan x="103" y="66.194">]</tspan></text>
+<rect x="124.000" y="54.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="131" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="131" y="60.569">Ctrl</tspan><tspan x="131" y="66.194">E</tspan></text>
+<rect x="138.000" y="47.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="145" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="145" y="56.381">H</tspan></text>
+<rect x="152.000" y="47.975" width="14" height="14" fill="#fff3e0" stroke="#d98a00" stroke-width="0.3" rx="1" />
+<text x="159" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="159" y="56.381">J</tspan></text>
+<rect x="166.000" y="47.975" width="14" height="14" fill="#fff3e0" stroke="#d98a00" stroke-width="0.3" rx="1" />
+<text x="173" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="173" y="56.381">K</tspan></text>
+<rect x="180.000" y="47.975" width="14" height="14" fill="#fff3e0" stroke="#d98a00" stroke-width="0.3" rx="1" />
+<text x="187" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="187" y="56.381">L</tspan></text>
+<rect x="194.000" y="47.975" width="14" height="14" fill="#fff3e0" stroke="#d98a00" stroke-width="0.3" rx="1" />
+<text x="201" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="201" y="56.381">;</tspan></text>
+<rect x="208.000" y="47.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="215" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="215" y="56.381">Del</tspan></text>
+<rect x="12.000" y="61.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="19" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="19" y="70.381">*</tspan></text>
+<rect x="26.000" y="61.975" width="14" height="14" fill="#fce4ec" stroke="#c2185b" stroke-width="0.3" rx="1" />
+<text x="33" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="33" y="70.381">Z</tspan></text>
+<rect x="40.000" y="61.975" width="14" height="14" fill="#fce4ec" stroke="#c2185b" stroke-width="0.3" rx="1" />
+<text x="47" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="47" y="70.381">X</tspan></text>
+<rect x="54.000" y="61.975" width="14" height="14" fill="#fce4ec" stroke="#c2185b" stroke-width="0.3" rx="1" />
+<text x="61" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="61" y="70.381">C</tspan></text>
+<rect x="68.000" y="61.975" width="14" height="14" fill="#fce4ec" stroke="#c2185b" stroke-width="0.3" rx="1" />
+<text x="75" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="75" y="70.381">V</tspan></text>
+<rect x="82.000" y="61.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="89" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="89" y="70.381">B</tspan></text>
+<rect x="138.000" y="61.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="145" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="145" y="70.381">N</tspan></text>
+<rect x="152.000" y="61.975" width="14" height="14" fill="#fce4ec" stroke="#c2185b" stroke-width="0.3" rx="1" />
+<text x="159" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="159" y="70.381">M</tspan></text>
+<rect x="166.000" y="61.975" width="14" height="14" fill="#fce4ec" stroke="#c2185b" stroke-width="0.3" rx="1" />
+<text x="173" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="173" y="67.569">&lt;</tspan><tspan x="173" y="73.194">,</tspan></text>
+<rect x="180.000" y="61.975" width="14" height="14" fill="#fce4ec" stroke="#c2185b" stroke-width="0.3" rx="1" />
+<text x="187" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="187" y="67.569">&gt;</tspan><tspan x="187" y="73.194">.</tspan></text>
+<rect x="194.000" y="61.975" width="14" height="14" fill="#fce4ec" stroke="#c2185b" stroke-width="0.3" rx="1" />
+<text x="201" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="201" y="67.569">?</tspan><tspan x="201" y="73.194">/</tspan></text>
+<rect x="208.000" y="61.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="215" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="215" y="70.381">_</tspan></text>
+<rect x="54.000" y="81.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="54.200" y="81.775" width="7.000" height="13.600" fill="#e8f5e9" rx="0.5" />
+<text x="61" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="61" y="87.174">Ctrl</tspan><tspan x="61" y="92.778">J / L</tspan></text>
+<rect x="68.000" y="81.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="75" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="75" y="89.981">␣</tspan></text>
+<rect x="82.000" y="81.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="89" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="89" y="89.981">Esc</tspan></text>
+<rect x="138.000" y="81.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="145" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="145" y="89.981">↵</tspan></text>
+<rect x="152.000" y="81.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="159" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="159" y="89.981">␣</tspan></text>
+<rect x="166.000" y="81.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="173" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="173" y="87.169">Ctrl</tspan><tspan x="173" y="92.794">Y</tspan></text>
+<rect x="110.000" y="18.575" width="14" height="14" fill="#dff0ff" stroke="#3366aa" stroke-width="0.4" stroke-dasharray="1.5 0.8" rx="1" />
+<text x="117" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="117" y="26.976">Lay 5</tspan></text>
+<rect x="19.000" y="77.375" width="14" height="14" fill="#dff0ff" stroke="#3366aa" stroke-width="0.4" stroke-dasharray="1.5 0.8" rx="1" />
+<text x="26" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="26" y="85.781">←</tspan></text>
+<rect x="201.000" y="77.375" width="14" height="14" fill="#dff0ff" stroke="#3366aa" stroke-width="0.4" stroke-dasharray="1.5 0.8" rx="1" />
+<text x="208" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="208" y="85.781">→</tspan></text>
+<rect x="223.400" y="40.975" width="14" height="14" fill="#dff0ff" stroke="#3366aa" stroke-width="0.4" stroke-dasharray="1.5 0.8" rx="1" />
+<text x="230.4" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="230.4" y="49.381">↑</tspan></text>
+<rect x="223.400" y="54.975" width="14" height="14" fill="#dff0ff" stroke="#3366aa" stroke-width="0.4" stroke-dasharray="1.5 0.8" rx="1" />
+<text x="230.4" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="230.4" y="63.381">↓</tspan></text>
+
+<text x="12.000" y="104.575" font-size="4.20" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="start" dominant-baseline="middle" fill="#555">Warpd</text>
+<text x="222.000" y="104.575" font-size="4.20" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="end" dominant-baseline="middle" fill="#555">Numeric</text>
+<text x="117.000" y="134.575" font-size="8.40" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" dominant-baseline="middle" fill="#2e7d32">1</text>
+<rect x="12.000" y="113.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="19" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="19" y="121.976">Inbox</tspan></text>
+<rect x="26.000" y="113.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="40.000" y="113.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="54.000" y="113.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="61" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="61" y="121.742">Normal</tspan></text>
+<rect x="68.000" y="113.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="75" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="75" y="121.981">Hint</tspan></text>
+<rect x="82.000" y="113.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="89" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="89" y="121.981">Grid</tspan></text>
+<rect x="96.000" y="120.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="124.000" y="120.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="131" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="131" y="126.169">Add</tspan><tspan x="131" y="131.794">SP</tspan></text>
+<rect x="138.000" y="113.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="152.000" y="113.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="159" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="159" y="121.981">1</tspan></text>
+<rect x="166.000" y="113.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="173" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="173" y="121.981">2</tspan></text>
+<rect x="180.000" y="113.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="187" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="187" y="121.981">3</tspan></text>
+<rect x="194.000" y="113.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="208.000" y="113.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="12.000" y="127.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="19" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="19" y="135.976">Tasks</tspan></text>
+<rect x="26.000" y="127.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="33" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="33" y="133.174">Grid</tspan><tspan x="33" y="138.778">Hover</tspan></text>
+<rect x="40.000" y="127.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="47" font-size="3.47" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="47" y="131.325">Grid</tspan><tspan x="47" y="135.658">Start</tspan><tspan x="47" y="139.992">Select</tspan></text>
+<rect x="54.000" y="127.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="61" font-size="3.47" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="61" y="131.325">Grid</tspan><tspan x="61" y="135.658">Done</tspan><tspan x="61" y="139.992">Select</tspan></text>
+<rect x="68.000" y="127.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="75" font-size="3.47" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="75" y="131.325">Grid</tspan><tspan x="75" y="135.658">Copy</tspan><tspan x="75" y="139.992">Line</tspan></text>
+<rect x="82.000" y="127.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="89" font-size="3.47" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="89" y="131.325">Grid</tspan><tspan x="89" y="135.658">Copy</tspan><tspan x="89" y="139.992">Word</tspan></text>
+<rect x="96.000" y="134.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="124.000" y="134.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="131" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="131" y="142.981">SP</tspan></text>
+<rect x="138.000" y="127.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="152.000" y="127.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="159" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="159" y="135.981">4</tspan></text>
+<rect x="166.000" y="127.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="173" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="173" y="135.981">5</tspan></text>
+<rect x="180.000" y="127.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="187" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="187" y="135.981">6</tspan></text>
+<rect x="194.000" y="127.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="208.000" y="127.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="12.000" y="141.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="26.000" y="141.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="40.000" y="141.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="54.000" y="141.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="61" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="61" y="149.976">Paste</tspan></text>
+<rect x="68.000" y="141.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="75" font-size="3.47" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="75" y="145.325">Hint</tspan><tspan x="75" y="149.658">Copy</tspan><tspan x="75" y="153.992">Line</tspan></text>
+<rect x="82.000" y="141.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="89" font-size="3.47" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="89" y="145.325">Hint</tspan><tspan x="89" y="149.658">Copy</tspan><tspan x="89" y="153.992">Word</tspan></text>
+<rect x="138.000" y="141.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="152.000" y="141.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="159" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="159" y="149.981">7</tspan></text>
+<rect x="166.000" y="141.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="173" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="173" y="149.981">8</tspan></text>
+<rect x="180.000" y="141.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="187" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="187" y="149.981">9</tspan></text>
+<rect x="194.000" y="141.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="208.000" y="141.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="54.000" y="161.175" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="68.000" y="161.175" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="82.000" y="161.175" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="138.000" y="161.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="145" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="145" y="169.581">0</tspan></text>
+<rect x="152.000" y="161.175" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="166.000" y="161.175" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+
+<text x="12.000" y="184.175" font-size="4.20" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="start" dominant-baseline="middle" fill="#555">Symbol</text>
+<text x="222.000" y="184.175" font-size="4.20" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="end" dominant-baseline="middle" fill="#555">Symbol</text>
+<text x="117.000" y="214.175" font-size="8.40" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" dominant-baseline="middle" fill="#2e7d32">2</text>
+<rect x="12.000" y="193.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="19" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="19" y="201.581">F12</tspan></text>
+<rect x="26.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="33" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="33" y="201.581">!</tspan></text>
+<rect x="40.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="47" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="47" y="201.581">@</tspan></text>
+<rect x="54.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="61" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="61" y="201.581">#</tspan></text>
+<rect x="68.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="75" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="75" y="201.581">€</tspan></text>
+<rect x="82.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="89" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="89" y="201.581">%</tspan></text>
+<rect x="96.000" y="200.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="103" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="103" y="205.774">Clear</tspan><tspan x="103" y="211.378">Term</tspan></text>
+<rect x="124.000" y="200.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="131" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="131" y="208.581">Home</tspan></text>
+<rect x="138.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="145" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="145" y="201.581">^</tspan></text>
+<rect x="152.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="159" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="159" y="201.581">&amp;</tspan></text>
+<rect x="166.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="173" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="173" y="201.581">£</tspan></text>
+<rect x="180.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="187" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="187" y="201.581">(</tspan></text>
+<rect x="194.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="201" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="201" y="201.581">)</tspan></text>
+<rect x="208.000" y="193.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="12.000" y="207.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="19" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="19" y="215.581">F11</tspan></text>
+<rect x="26.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="33" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="33" y="215.581">==</tspan></text>
+<rect x="40.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="47" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="47" y="215.581">→</tspan></text>
+<rect x="54.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="61" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="61" y="215.581">&amp;&amp;</tspan></text>
+<rect x="68.000" y="207.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="75" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="75" y="215.581">&apos;</tspan></text>
+<rect x="82.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="89" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="89" y="215.581">~</tspan></text>
+<rect x="96.000" y="214.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="103" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="103" y="219.774">Reset</tspan><tspan x="103" y="225.378">Term</tspan></text>
+<rect x="124.000" y="214.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="131" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="131" y="222.581">End</tspan></text>
+<rect x="138.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="145" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="145" y="215.581">+</tspan></text>
+<rect x="152.000" y="207.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="159" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="159" y="215.581">-</tspan></text>
+<rect x="166.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="173" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="173" y="215.581">\</tspan></text>
+<rect x="180.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="187" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="187" y="215.581">[</tspan></text>
+<rect x="194.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="201" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="201" y="215.581">]</tspan></text>
+<rect x="208.000" y="207.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="12.000" y="221.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="19" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="19" y="229.581">Ins</tspan></text>
+<rect x="26.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="33" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="33" y="229.581">!=</tspan></text>
+<rect x="40.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="47" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="47" y="229.581">⇒</tspan></text>
+<rect x="54.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="61" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="61" y="229.581">||</tspan></text>
+<rect x="68.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="75" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="75" y="229.581">&quot;</tspan></text>
+<rect x="82.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="89" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="89" y="229.581">`</tspan></text>
+<rect x="138.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="145" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="145" y="229.581">±</tspan></text>
+<rect x="152.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="159" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="159" y="229.581">=</tspan></text>
+<rect x="166.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="173" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="173" y="229.581">|</tspan></text>
+<rect x="180.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="187" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="187" y="229.581">{</tspan></text>
+<rect x="194.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="201" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="201" y="229.581">}</tspan></text>
+<rect x="208.000" y="221.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="54.000" y="240.775" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="68.000" y="240.775" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="82.000" y="240.775" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="138.000" y="240.775" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="152.000" y="240.775" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="166.000" y="240.775" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+
+<text x="240.000" y="24.975" font-size="4.20" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="start" dominant-baseline="middle" fill="#555">Sway</text>
+<text x="450.000" y="24.975" font-size="4.20" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="end" dominant-baseline="middle" fill="#555">Sway</text>
+<text x="345.000" y="54.975" font-size="8.40" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" dominant-baseline="middle" fill="#2e7d32">3</text>
+<rect x="240.000" y="33.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="247" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="247" y="39.808">Screen</tspan><tspan x="247" y="44.477">Rec</tspan></text>
+<rect x="254.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="261" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="261" y="42.381">GF1</tspan></text>
+<rect x="268.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="275" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="275" y="42.381">GF2</tspan></text>
+<rect x="282.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="289" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="289" y="42.381">GF3</tspan></text>
+<rect x="296.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="303" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="303" y="42.381">GF4</tspan></text>
+<rect x="310.000" y="33.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="317" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="317" y="42.381">GF5</tspan></text>
+<rect x="324.000" y="40.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="331" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="331" y="49.381">Vol+</tspan></text>
+<rect x="352.000" y="40.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="359" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="359" y="49.381">Bri+</tspan></text>
+<rect x="366.000" y="33.975" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="380.000" y="33.975" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="394.000" y="33.975" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="408.000" y="33.975" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="422.000" y="33.975" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="436.000" y="33.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="443" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="443" y="39.808">Close</tspan><tspan x="443" y="44.477">Screen</tspan></text>
+<rect x="240.000" y="47.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="247" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="247" y="53.808">Reload</tspan><tspan x="247" y="58.477">Sway</tspan></text>
+<rect x="254.000" y="47.975" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="268.000" y="47.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="275" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="275" y="53.569">G</tspan><tspan x="275" y="59.194">←</tspan></text>
+<rect x="282.000" y="47.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="289" font-size="3.47" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="289" y="51.725">Next</tspan><tspan x="289" y="56.058">Work</tspan><tspan x="289" y="60.392">Space</tspan></text>
+<rect x="296.000" y="47.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="303" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="303" y="53.808">Print</tspan><tspan x="303" y="58.477">Screen</tspan></text>
+<rect x="310.000" y="47.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="317" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="317" y="53.569">G</tspan><tspan x="317" y="59.194">→</tspan></text>
+<rect x="324.000" y="54.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="331" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="331" y="63.381">Vol-</tspan></text>
+<rect x="352.000" y="54.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="359" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="359" y="63.381">Bri-</tspan></text>
+<rect x="366.000" y="47.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="373" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="373" y="56.381">←</tspan></text>
+<rect x="380.000" y="47.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="387" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="387" y="56.381">↓</tspan></text>
+<rect x="394.000" y="47.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="401" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="401" y="56.381">↑</tspan></text>
+<rect x="408.000" y="47.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="415" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="415" y="56.381">→</tspan></text>
+<rect x="422.000" y="47.975" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="436.000" y="47.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="443" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="443" y="53.808">Full</tspan><tspan x="443" y="58.477">Screen</tspan></text>
+<rect x="240.000" y="61.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="247" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="247" y="67.569">Exit</tspan><tspan x="247" y="73.194">Sway</tspan></text>
+<rect x="254.000" y="61.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="261" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="261" y="70.381">F1</tspan></text>
+<rect x="268.000" y="61.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="275" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="275" y="70.381">F2</tspan></text>
+<rect x="282.000" y="61.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="289" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="289" y="70.381">F3</tspan></text>
+<rect x="296.000" y="61.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="303" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="303" y="70.381">F4</tspan></text>
+<rect x="310.000" y="61.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="317" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="317" y="70.381">F5</tspan></text>
+<rect x="366.000" y="61.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="373" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="373" y="70.381">F6</tspan></text>
+<rect x="380.000" y="61.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="387" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="387" y="70.381">F7</tspan></text>
+<rect x="394.000" y="61.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="401" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="401" y="70.381">F8</tspan></text>
+<rect x="408.000" y="61.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="415" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="415" y="70.381">F9</tspan></text>
+<rect x="422.000" y="61.975" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="429" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="429" y="70.381">F10</tspan></text>
+<rect x="436.000" y="61.975" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="443" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="443" y="67.808">Unload</tspan><tspan x="443" y="72.477">Disk</tspan></text>
+<rect x="282.000" y="81.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="296.000" y="81.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="310.000" y="81.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="366.000" y="81.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="380.000" y="81.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="394.000" y="81.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+
+<text x="240.000" y="104.575" font-size="4.20" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="start" dominant-baseline="middle" fill="#555">Tmux</text>
+<text x="450.000" y="104.575" font-size="4.20" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="end" dominant-baseline="middle" fill="#555">Mouse</text>
+<text x="345.000" y="134.575" font-size="8.40" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" dominant-baseline="middle" fill="#2e7d32">4</text>
+<rect x="240.000" y="113.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="247" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="247" y="119.169">Tmux</tspan><tspan x="247" y="124.794">new</tspan></text>
+<rect x="254.000" y="113.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="268.000" y="113.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="282.000" y="113.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="296.000" y="113.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="310.000" y="113.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="317" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="317" y="119.174">Tmux</tspan><tspan x="317" y="124.778">split</tspan></text>
+<rect x="324.000" y="120.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="331" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="331" y="126.169">Tmux</tspan><tspan x="331" y="131.794">next</tspan></text>
+<rect x="352.000" y="120.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="359" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="359" y="126.408">Toggle</tspan><tspan x="359" y="131.077">Mouse</tspan></text>
+<rect x="366.000" y="113.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="380.000" y="113.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="387" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="387" y="119.169">Page</tspan><tspan x="387" y="124.794">↓</tspan></text>
+<rect x="394.000" y="113.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="401" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="401" y="119.169">Page</tspan><tspan x="401" y="124.794">↑</tspan></text>
+<rect x="408.000" y="113.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="422.000" y="113.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="436.000" y="113.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="443" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="443" y="119.408">Center</tspan><tspan x="443" y="124.077">Top</tspan></text>
+<rect x="240.000" y="127.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="254.000" y="127.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="268.000" y="127.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="275" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="275" y="133.169">Tmux</tspan><tspan x="275" y="138.794">←</tspan></text>
+<rect x="282.000" y="127.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="289" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="289" y="133.169">Tmux</tspan><tspan x="289" y="138.794">↑</tspan></text>
+<rect x="296.000" y="127.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="303" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="303" y="133.169">Tmux</tspan><tspan x="303" y="138.794">↓</tspan></text>
+<rect x="310.000" y="127.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="317" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="317" y="133.169">Tmux</tspan><tspan x="317" y="138.794">→</tspan></text>
+<rect x="324.000" y="134.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="331" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="331" y="140.169">Tmux</tspan><tspan x="331" y="145.794">prev</tspan></text>
+<rect x="352.000" y="134.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="359" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="359" y="142.976">Pause</tspan></text>
+<rect x="366.000" y="127.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="373" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="373" y="135.981">←</tspan></text>
+<rect x="380.000" y="127.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="387" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="387" y="135.981">↓</tspan></text>
+<rect x="394.000" y="127.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="401" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="401" y="135.981">↑</tspan></text>
+<rect x="408.000" y="127.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="415" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="415" y="135.981">→</tspan></text>
+<rect x="422.000" y="127.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="436.000" y="127.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="443" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="443" y="135.742">Center</tspan></text>
+<rect x="240.000" y="141.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="254.000" y="141.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="261" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="261" y="147.169">Tmux</tspan><tspan x="261" y="152.794">zoom</tspan></text>
+<rect x="268.000" y="141.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="282.000" y="141.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="289" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="289" y="147.174">Tmux</tspan><tspan x="289" y="152.778">close</tspan></text>
+<rect x="296.000" y="141.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="303" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="303" y="147.408">Tmux</tspan><tspan x="303" y="152.077">vsplit</tspan></text>
+<rect x="310.000" y="141.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="366.000" y="141.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="373" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="373" y="147.408">Screen</tspan><tspan x="373" y="152.077">←</tspan></text>
+<rect x="380.000" y="141.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="387" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="387" y="147.408">Screen</tspan><tspan x="387" y="152.077">↓</tspan></text>
+<rect x="394.000" y="141.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="401" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="401" y="147.408">Screen</tspan><tspan x="401" y="152.077">↑</tspan></text>
+<rect x="408.000" y="141.575" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="415" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="415" y="147.408">Screen</tspan><tspan x="415" y="152.077">→</tspan></text>
+<rect x="422.000" y="141.575" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="436.000" y="141.575" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="443" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="443" y="147.408">Center</tspan><tspan x="443" y="152.077">Bottom</tspan></text>
+<rect x="282.000" y="161.175" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="296.000" y="161.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="303" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="303" y="166.769">Tmux</tspan><tspan x="303" y="172.394">pgup</tspan></text>
+<rect x="310.000" y="161.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="317" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="317" y="166.769">Tmux</tspan><tspan x="317" y="172.394">copy</tspan></text>
+<rect x="366.000" y="161.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="373" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="373" y="169.576">Left </tspan></text>
+<rect x="380.000" y="161.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="387" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="387" y="169.576"> Mid </tspan></text>
+<rect x="394.000" y="161.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="401" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="401" y="169.576">Right</tspan></text>
+
+<text x="240.000" y="184.175" font-size="4.20" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="start" dominant-baseline="middle" fill="#555">Bluetooth</text>
+<text x="450.000" y="184.175" font-size="4.20" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="end" dominant-baseline="middle" fill="#555">RGB</text>
+<text x="345.000" y="214.175" font-size="8.40" font-weight="bold" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" dominant-baseline="middle" fill="#2e7d32">5</text>
+<rect x="240.000" y="193.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="247" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="247" y="201.576">Reset</tspan></text>
+<rect x="254.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="261" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="261" y="198.774">BT</tspan><tspan x="261" y="204.378">Clear</tspan></text>
+<rect x="268.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="275" font-size="3.47" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="275" y="196.925">BT</tspan><tspan x="275" y="201.258">Clear</tspan><tspan x="275" y="205.592">All</tspan></text>
+<rect x="282.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="289" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="289" y="201.581">Boot</tspan></text>
+<rect x="296.000" y="193.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="303" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="303" y="199.008">Studio</tspan><tspan x="303" y="203.677">Unlock</tspan></text>
+<rect x="310.000" y="193.175" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="324.000" y="200.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="352.000" y="200.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="359" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="359" y="208.581">On</tspan></text>
+<rect x="366.000" y="193.175" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="380.000" y="193.175" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="394.000" y="193.175" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="408.000" y="193.175" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="422.000" y="193.175" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="436.000" y="193.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="240.000" y="207.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="254.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="261" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="261" y="215.581">BT 0</tspan></text>
+<rect x="268.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="275" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="275" y="215.581">BT 1</tspan></text>
+<rect x="282.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="289" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="289" y="215.581">BT 2</tspan></text>
+<rect x="296.000" y="207.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="303" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="303" y="215.581">BT 3</tspan></text>
+<rect x="310.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="317" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="317" y="215.581">BT 4</tspan></text>
+<rect x="324.000" y="214.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="352.000" y="214.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="359" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="359" y="222.581">Off</tspan></text>
+<rect x="366.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="373" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="373" y="212.769">Hue</tspan><tspan x="373" y="218.394">+</tspan></text>
+<rect x="380.000" y="207.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="387" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="387" y="212.769">Sat</tspan><tspan x="387" y="218.394">+</tspan></text>
+<rect x="394.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="401" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="401" y="212.769">Bri</tspan><tspan x="401" y="218.394">+</tspan></text>
+<rect x="408.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="415" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="415" y="212.774">Speed</tspan><tspan x="415" y="218.378">+</tspan></text>
+<rect x="422.000" y="207.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="429" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="429" y="212.769">Eff</tspan><tspan x="429" y="218.394">+</tspan></text>
+<rect x="436.000" y="207.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="240.000" y="221.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<rect x="254.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="261" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="261" y="226.769">BT 0</tspan><tspan x="261" y="232.394">Off</tspan></text>
+<rect x="268.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="275" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="275" y="226.769">BT 1</tspan><tspan x="275" y="232.394">Off</tspan></text>
+<rect x="282.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="289" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="289" y="226.769">BT 2</tspan><tspan x="289" y="232.394">Off</tspan></text>
+<rect x="296.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="303" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="303" y="226.769">BT 3</tspan><tspan x="303" y="232.394">Off</tspan></text>
+<rect x="310.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="317" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="317" y="226.769">BT 4</tspan><tspan x="317" y="232.394">Off</tspan></text>
+<rect x="366.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="373" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="373" y="226.769">Hue</tspan><tspan x="373" y="232.394">-</tspan></text>
+<rect x="380.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="387" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="387" y="226.769">Sat</tspan><tspan x="387" y="232.394">-</tspan></text>
+<rect x="394.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="401" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="401" y="226.769">Bri</tspan><tspan x="401" y="232.394">-</tspan></text>
+<rect x="408.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="415" font-size="4.48" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="415" y="226.774">Speed</tspan><tspan x="415" y="232.378">-</tspan></text>
+<rect x="422.000" y="221.175" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="429" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="429" y="226.769">Eff</tspan><tspan x="429" y="232.394">-</tspan></text>
+<rect x="436.000" y="221.175" width="14" height="14" fill="#fffde7" stroke="#d4a017" stroke-width="0.3" rx="1" />
+<text x="443" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="443" y="227.008">Studio</tspan><tspan x="443" y="231.677">Unlock</tspan></text>
+<rect x="282.000" y="240.775" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="296.000" y="240.775" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="310.000" y="240.775" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="366.000" y="240.775" width="14" height="14" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="373" font-size="3.74" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="373" y="246.608">RGB</tspan><tspan x="373" y="251.277">toggle</tspan></text>
+<rect x="380.000" y="240.775" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="394.000" y="240.775" width="14" height="14" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+
+</svg>

@@ -1,5 +1,2 @@
 .DS_Store
-tools/layout.svg
-tools/layout.pdf
-tools/blank.svg
-tools/blank.pdf
+*.bak

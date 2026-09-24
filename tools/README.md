@@ -1,7 +1,15 @@
 # Corne Keyboard Layout Printer
 
-Prints all 6 layers of your Corne Choc Pro keymap on a single A4 page.
-Each key is a 1 cm square. Run after every layout change, print, laminate.
+Prints all 6 layers of your Corne Choc Pro keymap on a single page.
+Run after every layout change.
+
+Two variants are generated:
+
+- **`tools/layout.pdf`** — portrait (A4). Each key is a 1 cm square.
+  Print this at **100% scale** (disable "fit to page"), laminate.
+- **`tools/layout_landscape.pdf`** — landscape, 16:10 (matches a 1920×1200
+  monitor) with 14 mm keys in a 2-column × 3-row grid. Best chosen for
+  **viewing on screen** ("fit to window" fills the monitor edge to edge).
 
 ---
 
@@ -9,10 +17,11 @@ Each key is a 1 cm square. Run after every layout change, print, laminate.
 
 | File | Purpose |
 |---|---|
-| `tools/generate_layout.php` | Reads the keymap and generates the SVG. Never edit this. |
+| `tools/generate_layout.php` | Portrait generator. Reads the keymap, emits `layout.svg`. Never edit this. |
+| `tools/generate_layout_landscape.php` | Landscape generator. Reads the keymap, emits `layout_landscape.svg`. Never edit this. |
 | `tools/labels.php` | Your custom key labels. **This is the only file you need to edit.** |
-| `tools/layout.svg` | Generated output. Overwritten on every run. |
-| `tools/layout.pdf` | Print-ready output. Overwritten on every run. |
+| `tools/layout.svg` / `tools/layout.pdf` | Portrait output. Overwritten every run (not tracked by git). |
+| `tools/layout_landscape.svg` / `tools/layout_landscape.pdf` | Landscape output. Overwritten every run (not tracked by git). |
 
 ---
 
@@ -25,17 +34,26 @@ cd ~/github/zmk-config
 git pull
 ```
 
-### 2 — Generate the PDF
+### 2 — Generate both PDFs
 
 ```bash
 cd ~/github/zmk-config/tools
 php generate_layout.php > layout.svg && inkscape layout.svg --export-type=pdf -o layout.pdf
+php generate_layout_landscape.php > layout_landscape.svg && inkscape layout_landscape.svg --export-type=pdf -o layout_landscape.pdf
 ```
 
-### 3 — Print
+If the generator prints `WARNING: expected 6 layers, found X` you likely
+forgot to `git pull` first.
+
+### 3 — Print (portrait)
 
 Open `layout.pdf` and print at **100% scale** (disable "fit to page").
 Each key square will be exactly 1 cm.
+
+### 4 — View on screen (landscape)
+
+Open `layout_landscape.pdf` in a viewer and select **fit to window / zoom to
+fit**. The 16:10 page fills the monitor edge to edge.
 
 ---
 
@@ -101,9 +119,11 @@ Rule: strip the `&`, keep everything else exactly as written in the keymap.
 ```bash
 cd ~/github/zmk-config/tools
 php generate_layout.php > layout.svg && inkscape layout.svg --export-type=pdf -o layout.pdf
+php generate_layout_landscape.php > layout_landscape.svg && inkscape layout_landscape.svg --export-type=pdf -o layout_landscape.pdf
 ```
 
-Nothing else is needed. The keymap file is not touched.
+Nothing else is needed. The keymap file is not touched. Both PDFs pick up
+the new labels automatically.
 
 ---
 
