@@ -185,13 +185,13 @@ return [
     'kp LG(F3)'                          => "GF3", // Sup-F3
     'kp LG(F4)'                          => "GF4", // Sup-F4
     'kp LG(F5)'                          => "GF5", // Sup-F5
+    'kp LG(F6)'                          => "GF6", // Sup-F6
+    'kp LG(F7)'                          => "GF7", // Sup-F7
+    'kp LG(F8)'                          => "GF8", // Sup-F8
+    'kp LG(F9)'                          => "GF9", // Sup-F9
+    'kp LG(F10)'                         => "GF10", // Sup-F10
     'kp K_VOLUME_UP'                     => "Vol+", // Vol+
     'kp C_BRI_UP'                        => "Bri+", // Bri+
-    'none'                               => "", // (empty)
-    'none'                               => "", // (empty)
-    'none'                               => "", // (empty)
-    'none'                               => "", // (empty)
-    'none'                               => "", // (empty)
     'kp LS(LG(Q))'                       => "Close\nScreen", // S-Sup-Q
 
     // Row 1

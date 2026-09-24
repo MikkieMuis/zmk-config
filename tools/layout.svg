@@ -290,11 +290,16 @@
 <text x="95" font-size="3.88" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="95" y="161.712">Vol+</tspan></text>
 <rect x="110.000" y="155.500" width="10" height="10" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
 <text x="115" font-size="3.88" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="115" y="161.712">Bri+</tspan></text>
-<rect x="120.000" y="150.500" width="10" height="10" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
-<rect x="130.000" y="150.500" width="10" height="10" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
-<rect x="140.000" y="150.500" width="10" height="10" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
-<rect x="150.000" y="150.500" width="10" height="10" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
-<rect x="160.000" y="150.500" width="10" height="10" fill="#f0f0f0" stroke="#444444" stroke-width="0.3" rx="1" />
+<rect x="120.000" y="150.500" width="10" height="10" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="125" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="125" y="156.906">GF6</tspan></text>
+<rect x="130.000" y="150.500" width="10" height="10" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="135" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="135" y="156.906">GF7</tspan></text>
+<rect x="140.000" y="150.500" width="10" height="10" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="145" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="145" y="156.906">GF8</tspan></text>
+<rect x="150.000" y="150.500" width="10" height="10" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="155" font-size="4.50" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="155" y="156.906">GF9</tspan></text>
+<rect x="160.000" y="150.500" width="10" height="10" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
+<text x="165" font-size="3.88" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="165" y="156.712">GF10</tspan></text>
 <rect x="170.000" y="150.500" width="10" height="10" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
 <text x="175" font-size="2.59" font-weight="normal" font-family="DejaVu Sans,Liberation Sans,sans-serif" text-anchor="middle" fill="#111"><tspan x="175" y="154.692">Close</tspan><tspan x="175" y="157.925">Screen</tspan></text>
 <rect x="30.000" y="160.500" width="10" height="10" fill="#ffffff" stroke="#444444" stroke-width="0.3" rx="1" />
